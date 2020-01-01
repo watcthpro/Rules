@@ -1,5 +1,5 @@
 # >> 11.1修改
-hostname = *.meituan.net,acs.m.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.jd.com,api.rr.tv,api.zhihu.com,*.zhuishushenqi.com,api5.futunn.com,s.youtube.com,www.zybang.com,youtubei.googleapis.com,enjoy.abchina.com,huyaimg.msstatic.com,cdn.sdb.com.cn,mbs.boc.cn,api.lvwan365.com,api.feng.com,*.dingtalk.com,cdnfile1.msstatic.com,map-mobile-opnimg.cdn.bcebos.com,gw.alicdn.com,*.googlevideo.com,pan.baidu.com,*.sigujx.com,account.wps.cn,*.didistatic.com,*.kuwo.cn,api.mvmtv.com,m.creditcard.ecitic.com,i.ys7.com,iface.iqiyi.com,ios.wps.cn,*.amap.com,pic1cdn.cmbchina.com,mobi.360doc.com,mp.weixin.qq.com,ms.jr.jd.com,msspjh.emarbox.com,smkmp.96225.com,*.bdstatic.com,ssl.kohsocialapp.qq.com,www.youtube.com,www.zhihu.com,*.snssdk.com,mjappaz.yefu365.com,www.3ivf.com,unidesk.alicdn.com,static.95508.com,mlife.cmbchina.com,*.pstatp.com,180.101.212.22,180.101.212.21,tech.c.citic,apicloud.ccrgt.com,mapi.appvipshop.com,*.appsimg.com,a.vpimg3.com,a.vpimg4.com,api*.tiktokv.com,api*.musical.ly,*.amemv.com,*.tiktokcdn.com,*.pstatp.com,*.51devapp.com,*.19831110.com,www.52pojie.cn
+hostname = *.meituan.net,acs.m.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.jd.com,api.rr.tv,api.zhihu.com,*.zhuishushenqi.com,api5.futunn.com,s.youtube.com,www.zybang.com,youtubei.googleapis.com,enjoy.abchina.com,huyaimg.msstatic.com,cdn.sdb.com.cn,mbs.boc.cn,api.lvwan365.com,api.feng.com,*.dingtalk.com,cdnfile1.msstatic.com,map-mobile-opnimg.cdn.bcebos.com,gw.alicdn.com,*.googlevideo.com,pan.baidu.com,*.sigujx.com,account.wps.cn,*.didistatic.com,*.kuwo.cn,api.mvmtv.com,m.creditcard.ecitic.com,i.ys7.com,iface.iqiyi.com,ios.wps.cn,*.amap.com,pic1cdn.cmbchina.com,mobi.360doc.com,mp.weixin.qq.com,ms.jr.jd.com,msspjh.emarbox.com,smkmp.96225.com,*.bdstatic.com,ssl.kohsocialapp.qq.com,www.youtube.com,www.zhihu.com,*.snssdk.com,mjappaz.yefu365.com,www.3ivf.com,unidesk.alicdn.com,static.95508.com,mlife.cmbchina.com,*.pstatp.com,180.101.212.22,180.101.212.21,tech.c.citic,apicloud.ccrgt.com,mapi.appvipshop.com,*.appsimg.com,a.vpimg3.com,a.vpimg4.com,api*.tiktokv.com,api*.musical.ly,*.amemv.com,*.tiktokcdn.com,*.pstatp.com,*.51devapp.com,*.19831110.com,www.52pojie.cn,*.cdn.bcebos.com
 
 
 
@@ -28,6 +28,7 @@ hostname = *.meituan.net,acs.m.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
 # >> 百度地图
+^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 url reject
 ^https?:\/\/.+\/client\/phpui2\/ url reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
 ^https:\/\/[\s\S]*_720_1044.(jpg|gif|png|jpeg|mp4) url reject
