@@ -61,49 +61,49 @@ DOMAIN,api.sjmwkj.cn
 
 # Advertising
 # >> 高德导航
-URL-REGEX,https?\/\/m5\.amap\.com\/ws\/valueadded\/.+
-URL-REGEX,https?\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
-URL-REGEX,https?\/\/optimus-ads\.amap\.com\/uploadimg\/.+.
+URL-REGEX,https?:\/\/m5\.amap\.com\/ws\/valueadded\/.+
+URL-REGEX,https?:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
+URL-REGEX,https?:\/\/optimus-ads\.amap\.com\/uploadimg\/.+.
 # >> 虎牙直播
-URL-REGEX,https?\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
-URL-REGEX,https?\/\/business\.msstatic\.com\/advertiser\/material\/.+jpg
-URL-REGEX,https?\/\/livewebbs2\.msstatic\.com\/function_component\/
-URL-REGEX,https?\/\/ylog\.huya\.com\/m\.gif$
-URL-REGEX,https?\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png
-URL-REGEX,https?\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg)
+URL-REGEX,https?::\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
+URL-REGEX,https?:\/\/business\.msstatic\.com\/advertiser\/material\/.+jpg
+URL-REGEX,https?:\/\/livewebbs2\.msstatic\.com\/function_component\/
+URL-REGEX,https?:\/\/ylog\.huya\.com\/m\.gif$
+URL-REGEX,https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png
+URL-REGEX,https?:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg)
 # >> 飞猪 
 URL-REGEX,https?:\/\/.+.\m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/
-URL-REGEX,https?\/\/gw\.alicdn\.com\/tfs\/.+.-1125-\d{4}\.*
+URL-REGEX,https?:\/\/gw\.alicdn\.com\/tfs\/.+.-1125-\d{4}\.*
 # >> 淘宝
-URL-REGEX,https?\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}.*
+URL-REGEX,https?:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}.*
 
 # >> 掌上110
-URL-REGEX,https?\/\/api\.lvwan365\.com\/discover\/
+URL-REGEX,https?:\/\/api\.lvwan365\.com\/discover\/
 
 # >> 钉钉
-URL-REGEX,https?\/\/static\.dingtalk\.com\/media\/.*
+URL-REGEX,https?:\/\/static\.dingtalk\.com\/media\/.*
 
 # > 掌上生活
 URL-REGEX,https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
-URL-REGEX,https?\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
-URL-REGEX,https?\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
+URL-REGEX,https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
+URL-REGEX,https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
 
 # >> 农业银行
-URL-REGEX,https?\/\/pic1cdn\.cmbchina\.com\/mbankcommendimg\/201810\/.+.png$*
+URL-REGEX,https?:\/\/pic1cdn\.cmbchina\.com\/mbankcommendimg\/201810\/.+.png$*
 URL-REGEX,https?\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/
 
 # >> 中国银行
-URL-REGEX,https?\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.*
+URL-REGEX,https?:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.*
 
 # >> 广发银行
-URL-REGEX,https?\/\/static\.95508\.com\/mmg\/images\/subfield\/floorImages\/[\s\S]*1125x2436\.(jpg|png|jpeg)
-URL-REGEX,https?\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.(jpg|png|jpeg)
-URL-REGEX,https?\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_73038\.(jpg|png|jpeg)
-URL-REGEX,https?\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_45084\.(jpg|png|jpeg)
+URL-REGEX,https?:\/\/static\.95508\.com\/mmg\/images\/subfield\/floorImages\/[\s\S]*1125x2436\.(jpg|png|jpeg)
+URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.(jpg|png|jpeg)
+URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_73038\.(jpg|png|jpeg)
+URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_45084\.(jpg|png|jpeg)
 
 # >>小米快贷
-URL-REGEX,https?\/\/api\.jr\.mi\.com\/v1\/\adv\/
+URL-REGEX,https?:\/\/api\.jr\.mi\.com\/v1\/\adv\/
 
 # >> 动卡空间
 URL-REGEX,https?\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/.*(jpg|gif)
@@ -119,16 +119,16 @@ URL-REGEX,https?\/\/smkmp\.96225\.com\/smkoperate\/bid\/.*
 URL-REGEX,https?\/\/activity\.96225\.com\/ext_smk_activity\/.*
 URL-REGEX,https?\/\/smkmp\.96225\.com\/smkoperate\/ad\/
 # >> 美团
-URL-REGEX,https?\/\/.+.meituan\.net\/(adunion|linglong|travelcube)\/.+.(_1e_1l\.webp|gif)
+URL-REGEX,https?:\/\/.+.meituan\.net\/(adunion|linglong|travelcube)\/.+.(_1e_1l\.webp|gif)
 URL-REGEX,https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
 URL-REGEX,https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
 URL-REGEX,https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
 URL-REGEX,https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4)
 
 # >> 滴滴出行
-URL-REGEX,https?\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*
+URL-REGEX,https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*
 # >> 交管12123
-URL-REGEX,https?\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adver
+URL-REGEX,https?:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adver
 
 # >> 京东
 URL-REGEX,https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
@@ -175,22 +175,22 @@ URL-REGEX,https?:\/\/vv\.video\.qq\.com\/getvmind\?
 URL-REGEX,https?:\/\/.+\.mp4.+&sdtfrom=v3004
 URL-REGEX,https?\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.*
 URL-REGEX,https?\/\/video\.dispatch\.tc\.qq\.com\/.+.mp4\?cdncode=.*
-URL-REGEX,https?\/\/.*\/vmind\.qqvideo\.tc\.qq\.com\/.*
-URL-REGEX,https?\/\/video\.dispatch\.tc\.qq\.com\/.+.
-# URL-REGEX,https?\/\/.+.\/vipts\.tc\.qq\.com\/.+.
+URL-REGEX,https?:\/\/.*\/vmind\.qqvideo\.tc\.qq\.com\/.*
+URL-REGEX,https?:\/\/video\.dispatch\.tc\.qq\.com\/.+.
+# URL-REGEX,https?:\/\/.+.\/vipts\.tc\.qq\.com\/.+.
 
 # 唯品会
-URL-REGEX,https?\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?api_key=.+.token=
-URL-REGEX,https?\/\/a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.+.1125x2436.*
-URL-REGEX,https?\/\/a\.vpimg3\.com\/upload\/flow\/.*
-URL-REGEX,https?\/\/a\.vpimg4\.com\/upload\/flow\/.*
-URL-REGEX,https?\/\/tx-a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.*
+URL-REGEX,https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?api_key=.+.token=
+URL-REGEX,https?:\/\/a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.+.1125x2436.*
+URL-REGEX,https?:\/\/a\.vpimg3\.com\/upload\/flow\/.*
+URL-REGEX,https?:\/\/a\.vpimg4\.com\/upload\/flow\/.*
+URL-REGEX,https?:\/\/tx-a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.*
 
 # 掌上高铁
-URL-REGEX,https?\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query
+URL-REGEX,https?:\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query
 
 # 云端书城
-URL-REGEX,https?\/\/www\.19831110\.com\/1\/getad\.asp\?.*
-URL-REGEX,https?\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json
-URL-REGEX,https?\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json
-URL-REGEX,https?\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
+URL-REGEX,https?:\/\/www\.19831110\.com\/1\/getad\.asp\?.*
+URL-REGEX,https?:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json
+URL-REGEX,https?:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json
+URL-REGEX,https?:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
