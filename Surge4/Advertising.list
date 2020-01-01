@@ -58,14 +58,14 @@ DOMAIN,image.sxybjjz.cn
 DOMAIN,dg.jianglongjie.cn
 DOMAIN,api.sjmwkj.cn
 
-
 # Advertising
+
 # >> 高德导航
 URL-REGEX,https?:\/\/m5\.amap\.com\/ws\/valueadded\/.+
 URL-REGEX,https?:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
 URL-REGEX,https?:\/\/optimus-ads\.amap\.com\/uploadimg\/.+.
 # >> 虎牙直播
-URL-REGEX,https?::\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
+URL-REGEX,https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
 URL-REGEX,https?:\/\/business\.msstatic\.com\/advertiser\/material\/.+jpg
 URL-REGEX,https?:\/\/livewebbs2\.msstatic\.com\/function_component\/
 URL-REGEX,https?:\/\/ylog\.huya\.com\/m\.gif$
@@ -85,13 +85,13 @@ URL-REGEX,https?:\/\/static\.dingtalk\.com\/media\/.*
 
 # > 掌上生活
 URL-REGEX,https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
+URL-REGEX,https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
 URL-REGEX,https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
 URL-REGEX,https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
 
 # >> 农业银行
 URL-REGEX,https?:\/\/pic1cdn\.cmbchina\.com\/mbankcommendimg\/201810\/.+.png$*
-URL-REGEX,https?\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/
+URL-REGEX,https?:\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/
 
 # >> 中国银行
 URL-REGEX,https?:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.*
@@ -106,18 +106,18 @@ URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_4
 URL-REGEX,https?:\/\/api\.jr\.mi\.com\/v1\/\adv\/
 
 # >> 动卡空间
-URL-REGEX,https?\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/.*(jpg|gif)
-URL-REGEX,https?\/\/tech\.c\.citic\/sdk\/default\/daily\.json
-URL-REGEX,https?\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+.\/appStartAdv
+URL-REGEX,https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/.*(jpg|gif)
+URL-REGEX,https?:\/\/tech\.c\.citic\/sdk\/default\/daily\.json
+URL-REGEX,https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+.\/appStartAdv
 
 # >> 平安银行
-URL-REGEX,https?\/\/cdn\.sdb\.com\.cn[\s\S]*?1242x2150.jpeg$
-URL-REGEX,https?\/\/cdn\.sdb\.com\.cn\/app\_upload\/brop\-mop\/adms\/materia\/img\/
+URL-REGEX,https?:\/\/cdn\.sdb\.com\.cn[\s\S]*?1242x2150.jpeg$
+URL-REGEX,https?:\/\/cdn\.sdb\.com\.cn\/app\_upload\/brop\-mop\/adms\/materia\/img\/
 
 # >> 杭州市民卡
-URL-REGEX,https?\/\/smkmp\.96225\.com\/smkoperate\/bid\/.*
-URL-REGEX,https?\/\/activity\.96225\.com\/ext_smk_activity\/.*
-URL-REGEX,https?\/\/smkmp\.96225\.com\/smkoperate\/ad\/
+URL-REGEX,https?:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.*
+URL-REGEX,https?:\/\/activity\.96225\.com\/ext_smk_activity\/.*
+URL-REGEX,https?:\/\/smkmp\.96225\.com\/smkoperate\/ad\/
 # >> 美团
 URL-REGEX,https?:\/\/.+.meituan\.net\/(adunion|linglong|travelcube)\/.+.(_1e_1l\.webp|gif)
 URL-REGEX,https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
@@ -173,8 +173,8 @@ URL-REGEX,https?:\/\/.+\.mp4\?sid=
 URL-REGEX,https?:\/\/btrace.qq.com
 URL-REGEX,https?:\/\/vv\.video\.qq\.com\/getvmind\?
 URL-REGEX,https?:\/\/.+\.mp4.+&sdtfrom=v3004
-URL-REGEX,https?\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.*
-URL-REGEX,https?\/\/video\.dispatch\.tc\.qq\.com\/.+.mp4\?cdncode=.*
+URL-REGEX,https?:\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.*
+URL-REGEX,https?:\/\/video\.dispatch\.tc\.qq\.com\/.+.mp4\?cdncode=.*
 URL-REGEX,https?:\/\/.*\/vmind\.qqvideo\.tc\.qq\.com\/.*
 URL-REGEX,https?:\/\/video\.dispatch\.tc\.qq\.com\/.+.
 # URL-REGEX,https?:\/\/.+.\/vipts\.tc\.qq\.com\/.+.
