@@ -102,6 +102,12 @@ URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.(jpg|p
 URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_73038\.(jpg|png|jpeg)
 URL-REGEX,https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.+._pics100_45084\.(jpg|png|jpeg)
 
+# 买单吧
+URL-REGEX,https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do
+URL-REGEX,https:\/\/creditcard\.bankcomm\.com\/mapp\/menu\/img\/20191230141648939\.png
+URL-REGEX,https://creditcard.bankcomm.com/mapp/menu/img/20191230140923492.png
+URL-REGEX,https://creditcard.bankcomm.com/mapp/menu/img/20191231132409555.jpg
+
 # >>小米快贷
 URL-REGEX,https?:\/\/api\.jr\.mi\.com\/v1\/\adv\/
 
