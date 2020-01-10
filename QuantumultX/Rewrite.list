@@ -221,3 +221,4 @@ https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url r
 ^https:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json url reject
 ^http:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json url reject
 ^https:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+ url reject
+^http:\/\/api\.adx\.adlefee\.com\/ad\/.+ url reject
