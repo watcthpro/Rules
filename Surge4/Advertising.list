@@ -200,3 +200,4 @@ URL-REGEX,https?:\/\/www\.19831110\.com\/1\/getad\.asp\?.*
 URL-REGEX,https?:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json
 URL-REGEX,https?:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json
 URL-REGEX,https?:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
+URL-REGEX,http:\/\/api\.adx\.adlefee\.com\/ad\/.
