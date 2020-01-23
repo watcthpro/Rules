@@ -42,6 +42,7 @@ hostname = *.meituan.net,acs.m.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.
 ^https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/ url reject
 ^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4) url reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* url reject
+^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png url reject
 
 # >> 百度云
 ^https?:\/\/pan\.baidu\.com\/s\/(.+) url 302 alook://pan.baiduwp.com/s/$1
