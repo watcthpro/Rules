@@ -60,6 +60,16 @@ DOMAIN,api.sjmwkj.cn
 
 # Advertising
 
+# >> 百度地图
+URL-REGEX,https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4
+URL-REGEX,https?:\/\/.*\/client\/phpui2\/
+URL-REGEX,https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg)
+URL-REGEX,https:\/\/[\s\S]*_720_1044.(jpg|gif|png|jpeg|mp4)
+URL-REGEX,https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/
+URL-REGEX,https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4)
+URL-REGEX,https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.*
+URL-REGEX,https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png
+
 # >> 高德导航
 URL-REGEX,https?:\/\/m5\.amap\.com\/ws\/valueadded\/.+
 URL-REGEX,https?:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
