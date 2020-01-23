@@ -36,7 +36,7 @@ hostname = *.meituan.net,acs.m.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.
 
 # >> 百度地图
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 url reject
-^https?:\/\/.+\/client\/phpui2\/ url reject
+^https?:\/\/.*\/client\/phpui2\/ url reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
 ^https:\/\/[\s\S]*_720_1044.(jpg|gif|png|jpeg|mp4) url reject
 ^https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/ url reject
