@@ -208,6 +208,10 @@ https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url r
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+. url reject
 # ^http:\/\/.+.\/vipts\.tc\.qq\.com\/.+. url reject
 
+^http:\/\/.*\/variety\.tc\.qq\.com\/.+.\.mp4\?vkey=.* url reject
+^http:\/\/.*\.168\/vlive\.qqvideo\.tc\.qq\.com\/.*\.mp4\?vkey=.* url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.*\.jpg\/0\?ck=.* url reject
+
 # 唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?api_key=.+.token= url reject
 ^https:\/\/a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.+.1125x2436.* url reject
