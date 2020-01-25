@@ -45,7 +45,7 @@ hostname = *.taobao.com,act.vip.iqiyi.com,api.jr.mi.com,api.m.jd.com,api.rr.tv,a
 
 # > 掌上生活
 ^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/ url reject
-https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url reject
+^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url reject
 ^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json url reject
 ^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png url reject
 
@@ -97,18 +97,6 @@ https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url r
 
 # >> 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adver url reject
-
-# >> Google
-^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject
-^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject
-^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject
-^https?:\/\/.+\.youtube\.com\/pagead\/ url reject
-^https?:\/\/.+\.youtube\.com\/ptracking url reject
 
 # >> 爱奇艺
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject
