@@ -266,3 +266,4 @@ URL-REGEX,^https:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json
 URL-REGEX,^http:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json
 URL-REGEX,^https:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
 URL-REGEX,^http:\/\/api\.adx\.adlefee\.com\/ad\/.+
+URL-REGEX,^https:\/\/api\.ssp\.adlefee\.com\/config$
