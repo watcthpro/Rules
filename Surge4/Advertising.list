@@ -119,7 +119,7 @@ URL-REGEX,^http:\/\/static\.dingtalk\.com\/media\/.*
 
 # > 掌上生活
 URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
+URL-REGEX,https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
 URL-REGEX,^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
 URL-REGEX,^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
 
