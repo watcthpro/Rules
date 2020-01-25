@@ -191,8 +191,8 @@ https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url r
 ^http:\/\/.+.\.file\.myqcloud\.com\/.+.mp4 url reject
 
 # 尼默视频
-^https?:\/\/.+.\/ad-pattern\/.+.json$ url reject
-^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
+^https?:\/\/.+.\/ad-pattern\/.+.json$ url reject-dict
+^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject-200
 
 # > 优酷
 ^https?:\/\/.+\.mp4\?ccode=0902 url reject
@@ -224,10 +224,7 @@ https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url r
 
 # 云端书城
 ^https:\/\/www\.19831110\.com\/1\/getad\.asp\?.* url reject
-^https:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json url reject
-^http:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json url reject
+^https:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json url reject-dict
+^http:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json url reject-dict
 ^https:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+ url reject
 ^http:\/\/api\.adx\.adlefee\.com\/ad\/.+ url reject
-# 瓜子视频
-^https:\/\/guazi-1\.oss-cn-shenzhen\.aliyuncs\.com\/mahua\/v_img\/20190708\/.+.\.jpg url reject
-^https:\/\/guazi-1\.oss-cn-shenzhen\.aliyuncs\.com\/mahua\/v_img\/20190827\/.+.\.jpg url reject
