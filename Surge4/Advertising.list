@@ -90,7 +90,7 @@ URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}.*
 URL-REGEX,^https:\/\/api\.lvwan365\.com\/discover\/
 # > 掌上生活
 URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-URL-REGEX,https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
+URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
 URL-REGEX,^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
 URL-REGEX,^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
 # >> 农业银行
