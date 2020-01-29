@@ -175,20 +175,20 @@ URL-REGEX,^https:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
 URL-REGEX,^http:\/\/api\.adx\.adlefee\.com\/ad\/.+
 URL-REGEX,^https:\/\/api\.ssp\.adlefee\.com\/config$
 # >> 腾讯游戏
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
+URL-REGEX,^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
+URL-REGEX,^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
 # > Google
-^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
-^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat)
-^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
+URL-REGEX,^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat)
+URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 # >> 优酷
-^https?:\/\/.+\.mp4\?ccode=0902
-^https?:\/\/.+\.mp4\?sid=
-^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid=
+URL-REGEX,^https?:\/\/.+\.mp4\?ccode=0902
+URL-REGEX,^https?:\/\/.+\.mp4\?sid=
+URL-REGEX,^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid=
 # > 知乎
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
-^https?:\/\/api\.zhihu\.com\/(launch|real_time)
-^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time)
-^https?:\/\/api\.zhihu\.com\/fringe\/ad
-^https?:\/\/api\.zhihu\.com\/ad-
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/fringe\/ad
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/ad-
