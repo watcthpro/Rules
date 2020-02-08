@@ -82,7 +82,7 @@ hostname = youtubei.googleapis.com,m.youtube.com,s.youtube.com,mlife.cmbchina.co
 ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ url reject
 ^https?:\/\/.+\.kingsoft-office-service\.com\/ad url reject
 # 微信
-^https?:\/\/.*\/mmhead\/.+.(tp=wxpic|132) url reject
+#^https?:\/\/.*\/mmhead\/.+.(tp=wxpic|132) url reject
 # JOOX
 ^http:\/\/.+.\/retrieval\/(getAdConfig|getAdInfo) url reject
 ^http:\/\/.+.\.file\.myqcloud\.com\/.+.mp4 url reject
