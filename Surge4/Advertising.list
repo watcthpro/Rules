@@ -140,7 +140,7 @@ URL-REGEX,^https?:\/\/ios\.wps\.cn\/ad-statistics-service
 URL-REGEX,^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/
 URL-REGEX,^https?:\/\/.+\.kingsoft-office-service\.com\/ad
 # 微信
-URL-REGEX,^https?:\/\/.*\/mmhead\/.+.(tp=wxpic|132)
+#URL-REGEX,^https?:\/\/.*\/mmhead\/.+.(tp=wxpic|132)
 # JOOX
 URL-REGEX,^http:\/\/.+.\/retrieval\/(getAdConfig|getAdInfo)
 URL-REGEX,^http:\/\/.+.\.file\.myqcloud\.com\/.+.mp4
