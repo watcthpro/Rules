@@ -126,5 +126,5 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 ^http:\/\/business\.msstatic\.com\/advertiser\/.* url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 # 米家
-^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
+^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.* url reject
 ^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.* url reject
