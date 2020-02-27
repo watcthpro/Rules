@@ -170,13 +170,6 @@ URL-REGEX,^https:\/\/a\.vpimg4\.com\/upload\/flow\/.*
 URL-REGEX,^https:\/\/tx-a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.*
 # 掌上高铁
 URL-REGEX,^https:\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query
-# 云端书城
-URL-REGEX,^https:\/\/www\.19831110\.com\/1\/getad\.asp\?.*
-URL-REGEX,^https:\/\/.*\.pstatp\.com\/obj\/ad-pattern\/.+.json
-URL-REGEX,^http:\/\/(www|m)\.51devapp\.com\/adconfigs\/.+.json
-URL-REGEX,^https:\/\/.*\.gdt\.qq\.com\/gdt_.*\.fcg\?.+
-URL-REGEX,^http:\/\/api\.adx\.adlefee\.com\/ad\/.+
-URL-REGEX,^https:\/\/api\.ssp\.adlefee\.com\/config$
 # >> 腾讯游戏
 URL-REGEX,^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
 URL-REGEX,^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
@@ -189,9 +182,10 @@ URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 URL-REGEX,^https?:\/\/.+\.mp4\?ccode=0902
 URL-REGEX,^https?:\/\/.+\.mp4\?sid=
 URL-REGEX,^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid=
-# > 知乎
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time)
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time)
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/fringe\/ad
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/ad-
+
+-# 虎牙直播
+^http:\/\/business\.msstatic\.com\/advertiser\/.*
+
+# 米家 img.youpin.mi-img.com
+^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
+^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.*
