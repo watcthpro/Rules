@@ -1,4 +1,4 @@
-hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,mlife.cmbchina.com,*.video.qq.com,pan.baidu.com,newclient.map.baidu.com,map-mobile-opnimg.cdn.bcebos.com,*.bdstatic.com,*.dingtalk.com,*.feng.com,*.amap.com,gw.alicdn.com,api.lvwan365.com,pic1cdn.cmbchina.com,,enjoy.abchina.com,mbs.boc.cn,static.95508.com,creditcardapp.bankcomm.com,creditcard.bankcomm.com,api.jr.mi.com,m.creditcard.ecitic.com,cdn.sdb.com,smkmp.96225.com,*.meituan.net,*.didistatic.com,gab.122.gov.cn,*.ys7.com,www.zybang.com,ios.wps.cn,*.kingsoft-office-service.com,api*.tiktokv.com,*.musical.ly,*.snssdk.com,api.m.jd.com,ms.jr.jd.com,mp.weixin.qq.com,api.mvmtv.com,account.wps.cn,api.faceapp.io,ssl.kohsocialapp.qq.com,*.googlevideo.com,*.zhihu.com,www.52pojie.cn,123.59.31.1,119.18.193.135,*.xiaoxiao*.com,trade-acs.m.taobao.com,amdc.m.taobao.com,vip1.kuwo.cn,img.youpin.mi-img.com
+hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,mlife.cmbchina.com,*.video.qq.com,pan.baidu.com,newclient.map.baidu.com,map-mobile-opnimg.cdn.bcebos.com,*.bdstatic.com,*.dingtalk.com,*.feng.com,*.amap.com,gw.alicdn.com,api.lvwan365.com,pic1cdn.cmbchina.com,,enjoy.abchina.com,mbs.boc.cn,static.95508.com,creditcardapp.bankcomm.com,creditcard.bankcomm.com,api.jr.mi.com,m.creditcard.ecitic.com,cdn.sdb.com,smkmp.96225.com,*.meituan.net,*.didistatic.com,gab.122.gov.cn,*.ys7.com,www.zybang.com,ios.wps.cn,*.kingsoft-office-service.com,api*.tiktokv.com,*.musical.ly,*.snssdk.com,api.m.jd.com,ms.jr.jd.com,mp.weixin.qq.com,api.mvmtv.com,account.wps.cn,api.faceapp.io,ssl.kohsocialapp.qq.com,*.googlevideo.com,*.zhihu.com,www.52pojie.cn,123.59.31.1,119.18.193.135,*.xiaoxiao*.com,trade-acs.m.taobao.com,amdc.m.taobao.com,vip1.kuwo.cn,img.youpin.mi-img.com,cdnfile1.msstatic.com
 
 
 # Advertising
@@ -124,7 +124,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 
 # 虎牙直播
 ^http:\/\/business\.msstatic\.com\/advertiser\/.* url reject
-
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 # 米家
 ^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
 ^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.* url reject
