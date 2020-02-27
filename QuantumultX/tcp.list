@@ -61,5 +61,6 @@ HOST,ocsp.apple.com,REJECT
 HOST-SUFFIX,dingyueads.com,REJECT
 # 小米快贷
 HOST,tr.iadsdk.apple.com,REJECT
-
+# 虎牙直播
+HOST,ylog.huya.com,REJECT
 HOST,sj.uukanshu.com,proxy
