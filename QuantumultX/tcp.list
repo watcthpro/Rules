@@ -61,8 +61,5 @@ HOST,ocsp.apple.com,REJECT
 HOST-SUFFIX,dingyueads.com,REJECT
 # 小米快贷
 HOST,tr.iadsdk.apple.com,REJECT
-# 奈菲影视
-HOST,www.yabo729.com,REJECT
-# 云端书城
-HOST-SUFFIX,adlefee.com,REJECT
-HOST-SUFFIX,gdt.qq.com,REJECT
+
+HOST,sj.uukanshu.com,proxy
