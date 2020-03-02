@@ -1,4 +1,7 @@
-# ads
+# 修正规则
+HOST,api.jr.mi.com,direct
+HOST,sj.uukanshu.com,proxy
+# 广告屏蔽
 HOST,cmapi.dingyueads.com,REJECT
 HOST-SUFFIX,ghosttty.cn,REJECT
 HOST,cdn.zhunishunli.com,REJECT
@@ -63,4 +66,3 @@ HOST-SUFFIX,dingyueads.com,REJECT
 HOST,tr.iadsdk.apple.com,REJECT
 # 虎牙直播
 HOST,ylog.huya.com,REJECT
-HOST,sj.uukanshu.com,proxy
