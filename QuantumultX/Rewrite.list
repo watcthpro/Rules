@@ -22,6 +22,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
 # >>威锋
 ^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
+^https:\/\/beta-api\.feng\.com\/.+.\/advShow url reject
 # >> 高德导航
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/.+ url reject
 ^http:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.* url reject
