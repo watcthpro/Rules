@@ -66,3 +66,5 @@ HOST-SUFFIX,dingyueads.com,REJECT
 HOST,tr.iadsdk.apple.com,REJECT
 # 虎牙直播
 HOST,ylog.huya.com,REJECT
+# 威锋论坛
+HOST-SUFFIX,snssdk.com,REJECT
