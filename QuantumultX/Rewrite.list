@@ -91,7 +91,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 ^https?:\/\/.+.\/ad-pattern\/.+.json$ url reject
 ^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
 # >> 腾讯视频
-^https?:\/\/btrace.qq.com url reject
+#^https?:\/\/btrace.qq.com url reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject
 ^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.* url reject
