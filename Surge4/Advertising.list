@@ -184,6 +184,10 @@ URL-REGEX,^https?:\/\/.+\.mp4\?sid=
 URL-REGEX,^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid=
 
 -# 虎牙直播
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
+^http:\/\/livewebbs2\.msstatic\.com\/function_component\/
+^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png
+^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg)
 ^http:\/\/business\.msstatic\.com\/advertiser\/.*
 
 # 米家 img.youpin.mi-img.com
