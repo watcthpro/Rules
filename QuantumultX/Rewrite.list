@@ -132,3 +132,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 # 米家
 ^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.* url reject
 ^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.* url reject
+
+# 酷我音乐
+^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) url reject
+^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ url reject
