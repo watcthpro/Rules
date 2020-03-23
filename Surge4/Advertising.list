@@ -193,3 +193,6 @@ URL-REGEX,^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid=
 # 米家 img.youpin.mi-img.com
 ^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
 ^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.*
+# 酷我音乐
+^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd)
+^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/
