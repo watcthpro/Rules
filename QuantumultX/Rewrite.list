@@ -36,9 +36,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 ^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url reject
 ^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json url reject
 ^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png url reject
-# >> 农业银行
-^https:\/\/pic1cdn\.cmbchina\.com\/mbankcommendimg\/201810\/.+.png$* url reject
-^https:\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/ url reject
+
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
 # >> 广发银行
@@ -90,18 +88,6 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 # 尼默视频
 ^https?:\/\/.+.\/ad-pattern\/.+.json$ url reject
 ^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
-# >> 腾讯视频
-#^https?:\/\/btrace.qq.com url reject
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject
-^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject
-^http:\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.* url reject
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.+.mp4\?cdncode=.* url reject
-^http:\/\/.*\/vmind\.qqvideo\.tc\.qq\.com\/.* url reject
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.+. url reject
-^http:\/\/.+.\/vipts\.tc\.qq\.com\/.+. url reject
-^http:\/\/.*\/variety\.tc\.qq\.com\/.+.\.mp4\?vkey=.* url reject
-^http:\/\/.*\.168\/vlive\.qqvideo\.tc\.qq\.com\/.*\.mp4\?vkey=.* url reject
-^http:\/\/pgdt\.gtimg\.cn\/gdt\/.*\.jpg\/0\?ck=.* url reject
 # 唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?api_key=.+.token= url reject
 ^https:\/\/a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.+.1125x2436.* url reject
@@ -118,10 +104,6 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,m
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject
 ^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject
-# >> 优酷
-^https?:\/\/.+\.mp4\?ccode=0902 url reject
-^https?:\/\/.+\.mp4\?sid= url reject
-^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid= url reject
 
 # 虎牙直播
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
