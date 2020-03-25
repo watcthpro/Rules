@@ -182,3 +182,4 @@ URL-REGEX,^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.*
 # 酷我音乐
 URL-REGEX,^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd)
 URL-REGEX,^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/
+URL-REGEX,^http:\/\/.+.\.kwcdn\.kuwo\.cn\/.+.\/upload\/.+.jpg$
