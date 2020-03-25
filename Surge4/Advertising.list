@@ -62,6 +62,9 @@ DOMAIN,vpn.tuodupingguomiao.com
 DOMAIN-SUFFIX,hm.baidu.com
 #虎牙直播
 DOMAIN,ylog.huya.com
+# 酷我音乐
+DOMAIN,rich.kuwo.cn
+DOMAIN,mobilead.kuwo.cn
 
 # Advertising
 
