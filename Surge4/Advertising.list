@@ -159,12 +159,7 @@ URL-REGEX,^http:\/\/.+.\/vipts\.tc\.qq\.com\/.+.
 URL-REGEX,^http:\/\/.*\/variety\.tc\.qq\.com\/.+.\.mp4\?vkey=.*
 URL-REGEX,^http:\/\/.*\.168\/vlive\.qqvideo\.tc\.qq\.com\/.*\.mp4\?vkey=.*
 URL-REGEX,^http:\/\/pgdt\.gtimg\.cn\/gdt\/.*\.jpg\/0\?ck=.*
-# 唯品会
-URL-REGEX,^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?api_key=.+.token=
-URL-REGEX,^https:\/\/a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.+.1125x2436.*
-URL-REGEX,^https:\/\/a\.vpimg3\.com\/upload\/flow\/.*
-URL-REGEX,^https:\/\/a\.vpimg4\.com\/upload\/flow\/.*
-URL-REGEX,^https:\/\/tx-a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.*
+
 # 掌上高铁
 URL-REGEX,^https:\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query
 # > Google
@@ -174,16 +169,16 @@ URL-REGEX,^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat)
 URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 
 
--# 虎牙直播
-^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
-^http:\/\/livewebbs2\.msstatic\.com\/function_component\/
-^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png
-^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg)
-^http:\/\/business\.msstatic\.com\/advertiser\/.*
+# 虎牙直播
+URL-REGEX,^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip
+URL-REGEX,^http:\/\/livewebbs2\.msstatic\.com\/function_component\/
+URL-REGEX,^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png
+URL-REGEX,^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg)
+URL-REGEX,^http:\/\/business\.msstatic\.com\/advertiser\/.*
 
 # 米家 img.youpin.mi-img.com
-^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
-^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.*
+URL-REGEX,^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.*
+URL-REGEX,^https:\/\/img\.youpin\.mi-img\.com\/youpinoper\/.*
 # 酷我音乐
-^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd)
-^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/
+URL-REGEX,^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd)
+URL-REGEX,^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/
