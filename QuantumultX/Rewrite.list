@@ -96,9 +96,7 @@ hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.you
 ^https:\/\/tx-a\.appsimg\.com\/upload\/flow\/2019\/12\/04\/167\/.* url reject
 # 掌上高铁
 ^https:\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query url reject
-# >> 腾讯游戏
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons url reject
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info url reject
+
 # > Google
 ^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject
