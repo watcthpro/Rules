@@ -107,7 +107,7 @@ hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.you
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 ^http:\/\/livewebbs2\.msstatic\.com\/function_component\/ url reject
 ^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png url reject
-^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
+#^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
 ^http:\/\/business\.msstatic\.com\/advertiser\/.* url reject
 # 米家
 ^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.* url reject
