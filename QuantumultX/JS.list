@@ -1,4 +1,4 @@
-hostname = api.m.jd.com, trade-acs.m.taobao.com, amdc.m.taobao.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com,*.zhihu.com,api.bilibili.com, app.bilibili.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,*.kuwo.cn,*.xiaoxiao*.com,p.du.163.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,api.mvmtv.com,pan.baidu.com,newdrugs.dxy.cn
+hostname = trade-acs.m.taobao.com, amdc.m.taobao.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com,*.zhihu.com,api.bilibili.com, app.bilibili.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,*.kuwo.cn,*.xiaoxiao*.com,p.du.163.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,api.mvmtv.com,newdrugs.dxy.cn
 
 
 
