@@ -1,4 +1,4 @@
-hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,mlife.cmbchina.com,pan.baidu.com,map-mobile-opnimg.cdn.bcebos.com,*.bdstatic.com,*.dingtalk.com,*.feng.com,*.amap.com,gw.alicdn.com,api.lvwan365.com,pic1cdn.cmbchina.com,,enjoy.abchina.com,mbs.boc.cn,static.95508.com,creditcardapp.bankcomm.com,creditcard.bankcomm.com,api.jr.mi.com,m.creditcard.ecitic.com,cdn.sdb.com,smkmp.96225.com,*.meituan.net,*.didistatic.com,gab.122.gov.cn,*.ys7.com,www.zybang.com,ios.wps.cn,*.kingsoft-office-service.com,ms.jr.jd.com,api.mvmtv.com,api.faceapp.io,*.googlevideo.com,123.59.31.1,119.18.193.135,img.youpin.mi-img.com,*.msstatic.com,unidesk.alicdn.com
+hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,mlife.cmbchina.com,pan.baidu.com,map-mobile-opnimg.cdn.bcebos.com,*.bdstatic.com,*.dingtalk.com,*.feng.com,*.amap.com,gw.alicdn.com,api.lvwan365.com,pic1cdn.cmbchina.com,,enjoy.abchina.com,mbs.boc.cn,static.95508.com,creditcardapp.bankcomm.com,creditcard.bankcomm.com,api.jr.mi.com,cdn.sdb.com,smkmp.96225.com,*.meituan.net,*.didistatic.com,gab.122.gov.cn,*.ys7.com,www.zybang.com,ios.wps.cn,*.kingsoft-office-service.com,ms.jr.jd.com,api.mvmtv.com,api.faceapp.io,*.googlevideo.com,123.59.31.1,119.18.193.135,img.youpin.mi-img.com,*.msstatic.com,unidesk.alicdn.com
 
 
 # Advertising
@@ -51,10 +51,6 @@ hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.you
 ^https://creditcard.bankcomm.com/mapp/menu/img/20191231132409555.jpg url reject
 # >>小米快贷
 ^https:\/\/api\.jr\.mi\.com\/v1\/\adv\/ url reject
-# >> 动卡空间
-^https:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/.*(jpg|gif) url reject
-^https:\/\/tech\.c\.citic\/sdk\/default\/daily\.json url reject
-^https:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+.\/appStartAdv url reject
 # >> 平安银行
 ^https:\/\/cdn\.sdb\.com\.cn[\s\S]*?1242x2150.jpeg$ url reject
 ^https:\/\/cdn\.sdb\.com\.cn\/app\_upload\/brop\-mop\/adms\/materia\/img\/ url reject
