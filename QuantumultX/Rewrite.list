@@ -7,7 +7,7 @@ hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.you
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ url reject
 # >> 百度地图
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 url reject
-^https:\/\/.*\/client\/phpui2\/ url reject
+#^https:\/\/.*\/client\/phpui2\/ url reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
 ^https:\/\/[\s\S]*_720_1044.(jpg|gif|png|jpeg|mp4) url reject
 ^https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/ url reject
@@ -103,7 +103,7 @@ hostname = newclient.map.baidu.com,www.youtube.com,youtubei.googleapis.com,m.you
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 ^http:\/\/livewebbs2\.msstatic\.com\/function_component\/ url reject
 ^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/roomad\/pic_.+.png url reject
-#^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
+^https:\/\/unidesk\.alicdn\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject
 ^http:\/\/business\.msstatic\.com\/advertiser\/.* url reject
 # 米家
 ^http:\/\/cnbj1\.fds\.api\.xiaomi\.com\/plato-banner\/.* url reject
