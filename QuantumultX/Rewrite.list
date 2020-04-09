@@ -3,6 +3,9 @@ hostname = wallet.95516.com,newclient.map.baidu.com,www.youtube.com,youtubei.goo
 
 # Advertising
 
+# 生日助手
+^http:\/\/api\.wolong\.tv\/wolong\/app\/ad\/config\?.* url reject
+^http:\/\/api\.wolong\.tv\/wolong\/ad\/splash\?.* url reject
 # 云闪付
 ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/(whcq.*)\.png url reject
 # >> 百度网盘
