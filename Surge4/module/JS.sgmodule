@@ -7,6 +7,6 @@ Wps.js = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users requ
 
 YouTube.js = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://Choler.github.io/Surge/Script/YouTube.js
 
-qdsj.js = type=http-response,https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
+qdsj.js = type=http-response,pattern=https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
 [MITM]
 hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com
