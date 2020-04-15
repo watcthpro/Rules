@@ -12,6 +12,10 @@ WeChat = type=http-request,pattern=https://mp\.weixin\.qq\.com/mp/getappmsgad,sc
 
 YouTube = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/YouTube.js
 
+jd_历史价 = type=http-response,pattern=https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+
+tb_历史价 = type=http-response,pattern=https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+
 
 [MITM]
-hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com
+hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com
