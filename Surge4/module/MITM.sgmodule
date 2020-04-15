@@ -1,6 +1,6 @@
 #!name=hostname
 
-#!desc自用｛MitM｝
+#!desc=自用｛MitM｝
 
 [MITM]
 
