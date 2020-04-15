@@ -5,5 +5,8 @@
 
 Wps.js = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
+YouTube.js = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://Choler.github.io/Surge/Script/YouTube.js
+
+
 [MITM]
-hostname = %APPEND% account.wps.cn
+hostname = %APPEND% account.wps.cn,*.googlevideo.com
