@@ -1,6 +1,6 @@
 #!name=JS脚本
 #!desc={自用脚本}
-#!system=ios
+
 [Script]
 wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
