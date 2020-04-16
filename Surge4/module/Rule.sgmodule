@@ -1,5 +1,6 @@
 #!name=Rule
 #!desc={自用Rule}
+#!system=IOS
 
 [URL Rewrite]
 
