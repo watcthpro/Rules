@@ -5,6 +5,29 @@
 
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* - reject
-# >>威锋
-^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen - reject
+# >> 威锋
+^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen - reject
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
+# >> 小米快贷
+^https:\/\/api\.jr\.mi\.com\/v1\/\adv\/ - reject
+# >> 交管12123
+^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve - reject
+# >> 虎牙直播
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip - reject
+# >> 酷我音乐
+^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
+^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
+# >> 百度地图
+^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads.* - reject
+^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 - reject
+^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) - reject
+^https:\/\/[\s\S]*_720_1044.(jpg|gif|png|jpeg|mp4) - reject
+^https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/ - reject
+^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4) - reject
+^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* - reject
+^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png - reject
+# >> 生日助手
+^http:\/\/api\.wolong\.tv\/wolong\/app\/ad\/config\?.* - reject
+^http:\/\/api\.wolong\.tv\/wolong\/ad\/splash\?.* - reject
+# >> 云闪付
+^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/(whcq.*)\.png - reject
