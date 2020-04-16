@@ -81,7 +81,7 @@ URL-REGEX,^http:\/\/static\.dingtalk\.com\/media\/.*
 # >>威锋
 URL-REGEX,^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen
 
-RL-REGEX,^https:\/\/.*\.feng\.com\/.*\/advertisement.*
+URL-REGEX,^https:\/\/.*\.feng\.com\/.*\/advertisement.*
 
 # >> 高德导航
 URL-REGEX,^https:\/\/m5\.amap\.com\/ws\/valueadded\/.+
