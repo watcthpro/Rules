@@ -3,4 +3,4 @@
 
 [MITM]
 
-hostname = %INSERT% www.youtube.com, youtubei.googleapis.com, m.youtube.com, s.youtube.com
+hostname = %INSERT% www.youtube.com, youtubei.googleapis.com, m.youtube.com, s.youtube.com,newclient.map.baidu.com,wallet.95516.com
