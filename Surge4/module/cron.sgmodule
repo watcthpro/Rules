@@ -1,0 +1,11 @@
+#!name=cron
+
+#!desc=自用{签到}
+
+[Script]
+
+腾讯视频 = type=cron,cronexp=cron "8 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+
+京东 = type=cron,cronexp=cron "5 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+吾爱破解 = type=cron,cronexp=cron "2 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/52pojie.js
