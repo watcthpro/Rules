@@ -1,6 +1,6 @@
 #!name=cron
 #!desc={自用签到}
-
+#!system=ios
 [Script]
 
 腾讯视频 = type=cron,cronexp=cron "8 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
