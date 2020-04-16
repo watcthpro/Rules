@@ -1,6 +1,6 @@
 #!name=cron
 
-#!desc={签到} 
+#!desc=签到 
 
 [Script]
 
