@@ -80,6 +80,9 @@ URL-REGEX,^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png
 URL-REGEX,^http:\/\/static\.dingtalk\.com\/media\/.*
 # >>威锋
 URL-REGEX,^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen
+
+RL-REGEX,^https:\/\/.*\.feng\.com\/.*\/advertisement.*
+
 # >> 高德导航
 URL-REGEX,^https:\/\/m5\.amap\.com\/ws\/valueadded\/.+
 URL-REGEX,^http:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
