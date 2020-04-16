@@ -3,3 +3,9 @@
 #!desc={自用Rule}
 
 [URL Rewrite]
+
+# >> 钉钉
+^http:\/\/static\.dingtalk\.com\/media\/.* - reject
+# >>威锋
+^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen - reject
+^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
