@@ -67,8 +67,6 @@ DOMAIN,rich.kuwo.cn
 DOMAIN,mobilead.kuwo.cn
 
 # Advertising
-
-
 # >> 百度地图
 URL-REGEX,^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4
 URL-REGEX,^https?:\/\/.*\/client\/phpui2\/
@@ -78,10 +76,6 @@ URL-REGEX,^https:\/\/.*\.bdstatic\.com\/.+.\/static\/appsapi\/conf\/appgid\/
 URL-REGEX,^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4)
 URL-REGEX,^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.*
 URL-REGEX,^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png
-# >> 百度云
-URL-REGEX,^https?:\/\/pan\.baidu\.com\/s\/(.+) url 302 alook://pan.baiduwp.com/s/$1
-# > bilibili
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/
 # >> 钉钉
 URL-REGEX,^http:\/\/static\.dingtalk\.com\/media\/.*
 # >>威锋
@@ -90,15 +84,8 @@ URL-REGEX,^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen
 URL-REGEX,^https:\/\/m5\.amap\.com\/ws\/valueadded\/.+
 URL-REGEX,^http:\/\/aos-cdn-image\.amap\.com\/oss\/trip_conf\/.+gif.*
 URL-REGEX,^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+.
-# >> 淘宝
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}.*
 # >> 掌上110
 URL-REGEX,^https:\/\/api\.lvwan365\.com\/discover\/
-# > 掌上生活
-URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
-URL-REGEX,^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertiseSec\.json
-URL-REGEX,^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/[\s\S]*34871\.png
 # >> 中国银行
 URL-REGEX,^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.*
 # >> 广发银行
@@ -124,18 +111,10 @@ URL-REGEX,^https:\/\/cdn\.sdb\.com\.cn\/app\_upload\/brop\-mop\/adms\/materia\/i
 URL-REGEX,^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.*
 URL-REGEX,^http:\/\/activity\.96225\.com\/ext_smk_activity\/.*
 URL-REGEX,^https:\/\/smkmp\.96225\.com\/smkoperate\/ad\/
-# >> 美团
-URL-REGEX,^https:\/\/.+.meituan\.net\/(adunion|linglong|travelcube)\/.+.(_1e_1l\.webp|gif)
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
-URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4)
 # >> 滴滴出行
 URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*
 # >> 交管12123
 URL-REGEX,^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve
-# >> 萤石云视频
-URL-REGEX,^https?:\/\/i\.ys7\.com\/api\/ads
 # >> 作业帮
 URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 # > Kingsoft WPS
@@ -150,18 +129,6 @@ URL-REGEX,^http:\/\/.+.\.file\.myqcloud\.com\/.+.mp4
 # 尼默视频
 URL-REGEX,^https?:\/\/.+.\/ad-pattern\/.+.json$
 URL-REGEX,^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/
-# >> 腾讯视频
-URL-REGEX,^https?:\/\/btrace.qq.com
-URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
-URL-REGEX,^https?:\/\/.+\.mp4.+&sdtfrom=v3004
-URL-REGEX,^http:\/\/wa\.gtimg\.com\/adxcdn\/.+.jpg\?md5=.*
-URL-REGEX,^http:\/\/video\.dispatch\.tc\.qq\.com\/.+.mp4\?cdncode=.*
-URL-REGEX,^http:\/\/.*\/vmind\.qqvideo\.tc\.qq\.com\/.*
-URL-REGEX,^http:\/\/video\.dispatch\.tc\.qq\.com\/.+.
-URL-REGEX,^http:\/\/.+.\/vipts\.tc\.qq\.com\/.+.
-URL-REGEX,^http:\/\/.*\/variety\.tc\.qq\.com\/.+.\.mp4\?vkey=.*
-URL-REGEX,^http:\/\/.*\.168\/vlive\.qqvideo\.tc\.qq\.com\/.*\.mp4\?vkey=.*
-URL-REGEX,^http:\/\/pgdt\.gtimg\.cn\/gdt\/.*\.jpg\/0\?ck=.*
 
 # 掌上高铁
 URL-REGEX,^https:\/\/apicloud\.ccrgt\.com\/crgt\/advertisement-client\/advertisement\/query
