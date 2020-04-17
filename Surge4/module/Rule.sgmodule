@@ -10,6 +10,9 @@
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
 # >> 小米快贷
 ^https:\/\/api\.jr\.mi\.com\/v1\/\adv\/ - reject
+# >> 米家
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/myTab.* - reject
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
 # >> 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve - reject
 # >> 虎牙直播
