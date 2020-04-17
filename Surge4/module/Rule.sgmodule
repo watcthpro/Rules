@@ -33,3 +33,9 @@
 ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/kjp0416\.png$ - reject
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
+# >> 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/.+.\/ad\/.* - reject
+^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/.* - reject
+^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ - reject
+^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetUnreadMsgByUserId\.ext$ - reject
+^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ - reject
