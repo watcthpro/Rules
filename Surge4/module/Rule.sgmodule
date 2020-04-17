@@ -41,8 +41,8 @@
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ - reject
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* - reject
-# ^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/ - reject
-# ^https:\/\/static\.didialift\.com\/pinche\/gift\/.+.\.png\?.* - reject
-# ^http:\/\/dpubstatic\.udache\.com\/static\/dpubimg\/.+.\.png - reject
+#^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/ - reject
+#^https:\/\/static\.didialift\.com\/pinche\/gift\/.+.\.png\?.* - reject
+#^http:\/\/dpubstatic\.udache\.com\/static\/dpubimg\/.+.\.png - reject
 
 
