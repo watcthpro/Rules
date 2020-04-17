@@ -1,6 +1,5 @@
 #!name=Rule
 #!desc={自用Rule}
-#!system=IOS
 
 [URL Rewrite]
 
@@ -34,4 +33,3 @@
 ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/kjp0416\.png$ - reject
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
-# >> 杭州市民卡
