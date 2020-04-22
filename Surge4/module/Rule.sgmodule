@@ -48,4 +48,6 @@
 ^https:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config\/online\/history\/taobao\/.+.\.json - reject
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i1\/.+.\.jpg_1200x1200q90\.jpg_\.heic - reject
 ^https:\/\/heic\.alicdn\.com\/tfs\/.+.\.jpg_1200x1200q90\.jpg_\.heic - reject
+# >> 美团
+^https:\/\/p0\.meituan\.net\/linglong\/.+.\.gif$ - reject
 
