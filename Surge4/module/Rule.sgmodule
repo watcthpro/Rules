@@ -42,7 +42,8 @@
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ - reject
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetUnreadMsgByUserId\.ext$ - reject
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ - reject
-# 滴滴出行
+# >> 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* - reject
-
+# >> 淘宝
+^https:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config\/online\/history\/taobao\/.+.\.json - reject
 
