@@ -26,4 +26,4 @@ tb_历史价 = type=http-response,pattern=https?://trade-acs\.m\.taobao\.com/gw/
 抖音 = script-path=https://choler.github.io/Surge/Script/Aweme.js,type=http-response,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0
 
 [MITM]
-hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn
+hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn,*.musical.ly,*.amemv.com,aweme*.snssdk.com,api*.tiktokv.com
