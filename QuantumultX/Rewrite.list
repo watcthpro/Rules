@@ -41,6 +41,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject-200
 # >> 虎牙直播
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject-200
+^http:\/\/business\.msstatic\.com\/advertiser\/material\/.+.\.jpg url reject-200
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) url reject-200
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ url reject-200
