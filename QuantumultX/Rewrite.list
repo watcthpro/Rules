@@ -59,6 +59,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^http:\/\/api\.wolong\.tv\/wolong\/ad\/splash\?.* url reject-200
 # >> 云闪付
 ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/kjp0416\.png$ url reject-200
+^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/xfq0427\.png url reject-200
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject-200
 # >> 杭州市民卡
