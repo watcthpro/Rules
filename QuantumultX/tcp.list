@@ -68,3 +68,6 @@ HOST,tr.iadsdk.apple.com,REJECT
 HOST,ylog.huya.com,REJECT
 # 威锋论坛
 HOST-SUFFIX,snssdk.com,REJECT
+# 麻花影视
+HOST,png.cameliotoscalini.net,REJECT
+HOST,sp0.baidu.com,REJECT
