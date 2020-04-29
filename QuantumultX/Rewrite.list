@@ -27,25 +27,42 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
 
+# >> 微信
+^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
+
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject-200
+
 # >> 威锋
 ^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject-200
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject-200
+
 # >> 小米快贷
 ^https:\/\/api\.jr\.mi\.com\/v1\/\adv\/ url reject-200
+
 # >> 米家
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/myTab.* url reject-200
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
+^https?+:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
+^https?+:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject-200
+^https?+:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject-200
+^https?+:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? url reject-200
+
+
 # >> 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject-200
+
 # >> 虎牙直播
+^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
+^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject-200
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject-200
-^http:\/\/business\.msstatic\.com\/advertiser\/material\/.+.\.jpg url reject-200
+
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) url reject-200
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ url reject-200
+
 # >> 百度地图
+^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg url reject-200
 ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads.* url reject-200
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 url reject-200
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) url reject-200
@@ -54,25 +71,35 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4) url reject-200
 ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* url reject-200
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png url reject-200
+
 # >> 生日助手
 ^http:\/\/api\.wolong\.tv\/wolong\/app\/ad\/config\?.* url reject-200
 ^http:\/\/api\.wolong\.tv\/wolong\/ad\/splash\?.* url reject-200
-# >> 云闪付
-^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/kjp0416\.png$ url reject-200
-^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/xfq0427\.png url reject-200
+
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject-200
+
 # >> 杭州市民卡
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad\/.* url reject-200
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/.* url reject-200
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject-200
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetUnreadMsgByUserId\.ext$ url reject-200
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ url reject-200
+
 # >> 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* url reject-200
+
 # >> 淘宝
-^https:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config\/online\/history\/taobao\/.+.\.json url reject-200
-^https:\/\/heic\.alicdn\.com\/imgextra\/i1\/.+.\.jpg_1200x1200q90\.jpg_\.heic url reject-200
-^https:\/\/heic\.alicdn\.com\/tfs\/.+.\.jpg_1200x1200q90\.jpg_\.heic url reject-200
+^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ url reject-200
+^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ url reject-200
+^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ url reject-200
+
 # >> 美团
-^https:\/\/p0\.meituan\.net\/linglong\/.+.\.gif$ url reject-200
+^https?+:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ url reject-200
+^https?+:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg url reject-200
+^https?+:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp url reject-200
+^https?+:\/\/s3plus\.meituan\.net\/.+?\/linglong\/.+?\.(?>gif|jpg|mp4) url reject-200
+
+# >> 腾讯视频
+^https?+:\/\/vv\.video\.qq\.com\/getvmind\? url reject-200
+^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+?\.tc\.qq\.com\/.+?p201\.1\.mp4\? url reject-200
