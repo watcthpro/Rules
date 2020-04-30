@@ -1,4 +1,4 @@
-hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,newclient.map.baidu.com,*.dingtalk.com,*.feng.com,img.youpin.mi-img.com,*.amap.com,api.jr.mi.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,*.96225.com,*.didistatic.com,*.xiaojukeji.com,*.mi.com,*.alicdn.com,*.meituan.net
+hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,newclient.map.baidu.com,*.dingtalk.com,*.feng.com,img.youpin.mi-img.com,*.amap.com,api.jr.mi.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,*.96225.com,*.didistatic.com,*.xiaojukeji.com,*.mi.com,*.alicdn.com,*.meituan.net,*.midukanshu.com
 
 
 ^https?://(www.)?g.cn url 302 https://www.google.com
