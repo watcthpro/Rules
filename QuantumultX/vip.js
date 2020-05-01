@@ -6,8 +6,6 @@
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
-
-"freeAd" : {
       "ADCodeReadTopPop" : "1",
       "ADCodeReadInsertVideo" : "1",
       "ADCodeReadTopVideoButton" : "1",
