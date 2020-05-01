@@ -1,4 +1,4 @@
-hostname = account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn,*.googlevideo.com
+hostname = account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn,*.googlevideo.com,*.rr.tv
 
 # 去微信公众号广告 (By Choler)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
@@ -24,5 +24,9 @@ hostname = account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.
 
 # 小小影视Vip (By Meeta)
 https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
+
 # 米读
 ^https:\/\/apiwz\.midukanshu\.com\/user\/relation\/equityInfo url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/QuantumultX/File/midu.js
+
+# 人人视频
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
