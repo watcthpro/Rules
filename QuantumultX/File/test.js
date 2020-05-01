@@ -1,3 +1,5 @@
-var data = true
+obj = JSON.parse($response.body);
 
-$done({response: data});
+obj.date = true,
+
+$done({body: JSON.stringify(obj)});
