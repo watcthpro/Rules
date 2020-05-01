@@ -1,5 +1,5 @@
 /*
-^https:\/\/api\.rr\.tv\/watch\/v4\/priority_video_quality\/get_priority_video_quality_config\? url script-response-body 
+^https:\/\/api\.rr\.tv\/watch\/v4\/priority_video_quality\/get_priority_video_quality_config\? url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/QuantumultX/File/rrtv.js
 
 */
 
