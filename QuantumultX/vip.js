@@ -3,6 +3,10 @@
  * 
  */
 
+var body = $response.body;
+var url = $request.url;
+var obj = JSON.parse(body);
+
 "freeAd" : {
       "ADCodeReadTopPop" : "1",
       "ADCodeReadInsertVideo" : "1",
@@ -25,10 +29,6 @@
       "ADCodeReadInsert" : "1",
       "ADCodeNewEndVideo" : "1",
       "ADCodeReadEndShadow" : "1"
-    },
+    }
 
-$task.fetch(myRequest).then(response => {
-    console.log(response.statusCode + "\n\n" + response.body);
-}, reason => {
-    console.log(reason.error);
-});
+$done({body});
