@@ -45,9 +45,20 @@
 # >> 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* - reject
 # >> 淘宝
-^https:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config\/online\/history\/taobao\/.+.\.json - reject
-^https:\/\/heic\.alicdn\.com\/imgextra\/i1\/.+.\.jpg_1200x1200q90\.jpg_\.heic - reject
-^https:\/\/heic\.alicdn\.com\/tfs\/.+.\.jpg_1200x1200q90\.jpg_\.heic - reject
-# >> 美团
-^https:\/\/p0\.meituan\.net\/linglong\/.+.\.gif$ - reject
+^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ - reject
+^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
+^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ - reject
 
+# >> 美团
+^https?+:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ - reject
+^https?+:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg - reject
+^https?+:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp - reject
+^https?+:\/\/s3plus\.meituan\.net\/.+?\/linglong\/.+?\.(?>gif|jpg|mp4) - reject
+
+# >> 腾讯视频
+^https?+:\/\/vv\.video\.qq\.com\/(getvmind|getvinfo|checktime)\? - reject
+^http:\/\/.+.\/vlive\.qqvideo\.tc\.qq\.com\/.+?\.mp4\? url - reject
+
+# >>米读
+^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
+^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/newMax - reject
