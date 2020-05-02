@@ -26,6 +26,13 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
 
+^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) url reject-200
+^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad url reject-200
+^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking) url reject-200
+^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ url reject-200
+# > Gofun
+^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200
+
 # >> 微信
 ^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
 
