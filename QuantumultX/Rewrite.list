@@ -116,3 +116,4 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl url reject
 ^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData url reject
 ^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ url reject
+^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
