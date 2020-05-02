@@ -79,7 +79,7 @@ obj = {
     },
     "name" : "VIP会员"
   },
-  "currentTime" : 1588309348
+  "currentTime" : 1588308864
 };
 
 obj.userid = id;
