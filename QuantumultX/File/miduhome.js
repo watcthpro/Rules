@@ -4,10 +4,10 @@ var data =
   "message" : "成功",
   "data" : [
     {
-      "id" : "51",
+      "id" : "",
       "name" : "精选",
-      "nodesId" : "602",
-      "isDefault" : "1",
+      "nodesId" : "",
+      "isDefault" : "",
       "bottomFloats" : {
         "buttonTitle" : "",
         "subTitle" : "",
@@ -15,10 +15,10 @@ var data =
         "title" : "",
         "targetUrl" : ""
       },
-      "action" : "1",
+      "action" : "",
       "color" : "",
       "image" : "",
-      "target" : "602",
+      "target" : "",
       "headImgTarget" : "",
       "headImg" : "",
       "icons" : [
