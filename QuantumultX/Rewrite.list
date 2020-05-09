@@ -125,3 +125,9 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/api\.ys7\.com\/v3\/smarthome\/scene\/v1\/ url reject
 ^https:\/\/api\.ys7\.com\/v3\/clouds\/cloudbiz\/ url reject
 ^https:\/\/api\.ys7\.com\/v3\/config\/valueAddedInfo url reject
+
+# > 京东
+^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
+^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
