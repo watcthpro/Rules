@@ -1,4 +1,4 @@
-hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,newclient.map.baidu.com,*.dingtalk.com,*.feng.com,img.youpin.mi-img.com,*.amap.com,api.jr.mi.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,*.96225.com,*.didistatic.com,*.xiaojukeji.com,*.mi.com,*.alicdn.com,*.meituan.net,apiwz.midukanshu.com
+hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,newclient.map.baidu.com,*.dingtalk.com,*.feng.com,img.youpin.mi-img.com,*.amap.com,api.jr.mi.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,*.96225.com,*.didistatic.com,*.xiaojukeji.com,*.mi.com,*.alicdn.com,*.meituan.net,apiwz.midukanshu.com,*.ys7.com
 
 ^https?://(www.)?g.cn url 302 https://www.google.com
 ^https?://(www.)?google.cn url 302 https://www.google.com
@@ -117,3 +117,11 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ url reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getAds url reject
+# >>萤石芸
+^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? url reject
+^https:\/\/i\.ys7\.com\/api\/ads\/ url reject
+^https:\/\/ecapi-flood\.ys7\.com\/v1\/ url reject
+^https:\/\/api\.ys7\.com\/v3\/configurations\/system\/info url reject
+^https:\/\/api\.ys7\.com\/v3\/smarthome\/scene\/v1\/ url reject
+^https:\/\/api\.ys7\.com\/v3\/clouds\/cloudbiz\/ url reject
+^https:\/\/api\.ys7\.com\/v3\/config\/valueAddedInfo url reject
