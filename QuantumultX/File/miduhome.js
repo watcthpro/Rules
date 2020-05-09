@@ -1,13 +1,17 @@
-var data = 
-  {
+var obj = JSON.parse($response.body);
+
+var id = obj.userid;
+
+obj = {
+
   "code" : 0,
   "message" : "成功",
   "data" : [
     {
-      "id" : "",
+      "id" : "51",
       "name" : "精选",
-      "nodesId" : "",
-      "isDefault" : "",
+      "nodesId" : "602",
+      "isDefault" : "1",
       "bottomFloats" : {
         "buttonTitle" : "",
         "subTitle" : "",
@@ -15,10 +19,10 @@ var data =
         "title" : "",
         "targetUrl" : ""
       },
-      "action" : "",
+      "action" : "1",
       "color" : "",
       "image" : "",
-      "target" : "",
+      "target" : "602",
       "headImgTarget" : "",
       "headImg" : "",
       "icons" : [
@@ -178,4 +182,8 @@ var data =
   ],
   "currentTime" : 1588986982
 }
-$done({response: data});
+
+
+obj.userid = id;
+
+$done({ body: JSON.stringify(obj) });
