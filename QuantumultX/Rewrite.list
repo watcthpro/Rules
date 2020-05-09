@@ -117,7 +117,7 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ url reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getAds url reject
-# >>萤石芸
+# >>萤石云
 ^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? url reject
 ^https:\/\/i\.ys7\.com\/api\/ads\/ url reject
 ^https:\/\/ecapi-flood\.ys7\.com\/v1\/ url reject
