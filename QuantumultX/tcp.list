@@ -72,3 +72,11 @@ HOST-SUFFIX,snssdk.com,REJECT
 # 麻花影视
 HOST,z9.cnzz.com,REJECT
 HOST,vip.jiangrenzhiguo.com,REJECT
+# 腾讯视频
+HOST,news.l.qq.com,REJECT
+HOST,dldir1.qq.com,REJECT
+HOST,info4.video.qq.com,REJECT
+HOST,info6.video.qq.com,REJECT
+HOST,voreader.reader.qq.com,REJECT
+HOST,p.l.qq.com,REJECT
+HOST,api.unipay.qq.com,REJECT
