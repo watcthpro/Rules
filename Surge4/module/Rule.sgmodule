@@ -3,24 +3,73 @@
 
 [URL Rewrite]
 
+^https?://(www.)?g.cn url 302 https://www.google.com
+^https?://(www.)?google.cn url 302 https://www.google.com
+^https?://(www.)?google.cn/search url 302 https://www.google.com/search
+^http://coupon.m.jd.com/ url 302 https://coupon.m.jd.com/
+^http://h5.m.jd.com/ url 302 https://h5.m.jd.com/
+^http://item.m.jd.com/ url 302 https://item.m.jd.com/
+^http://m.jd.com url 302 https://m.jd.com
+^http://newcz.m.jd.com/ url 302 https://newcz.m.jd.com/
+^http://p.m.jd.com/ url 302 https://p.m.jd.com/
+^http://so.m.jd.com/ url 302 https://so.m.jd.com/
+^https?://union.click.jd.com/jda? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/jda?adblock=$2union.click.jd.com$3
+^https?://union.click.jd.com/sem.php? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/sem.php?adblock=$2union.click.jd.com$3
+^https?://www.jd.com/ url 302 https://www.jd.com/
+^https?://m.taobao.com/ url 302 https://m.taobao.com/
+^https:\/\/api\.cognitive\.microsofttranslator\.com\/languages\?scope=compact,transliteration&api-version= url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1
+^https:\/\/offline\.microsofttranslator\.com\/translatorresources\.svc\/GetMetadata\?platform=ios&version= url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1
+^https?://cfg.m.ttkvod.com/mobile/ttk_mobile_1.8.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/ttk_mobile_1.8.txt$2ogtre5vp0.bkt.clouddn.com$3
+^https?://cnzz.com/ url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/background.png?$2ogtre5vp0.bkt.clouddn.com$3
+^https?://m.qu.la/stylewap/js/wap.js url 302 http://ogtre5vp0.bkt.clouddn.com/qu_la_wap.js
+^https?://m.yhd.com/1/? url 302 http://m.yhd.com/1/?adbock=
+^https?://n.mark.letv.com/m3u8api/ url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
+^https?://sqimg.qq.com/ url 302 https://sqimg.qq.com/
+^https?://static.m.ttkvod.com/static_cahce/index/index.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/index.txt$2ogtre5vp0.bkt.clouddn.com$3
+^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
+^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
+^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) - reject
+^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad - reject
+^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking) - reject
+^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ - reject
+# > Gofun
+^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
+
+# >> 微信
+^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
+
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* - reject
+
 # >> 威锋
 ^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen - reject
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
+
 # >> 小米快贷
 ^https:\/\/api\.jr\.mi\.com\/v1\/\adv\/ - reject
+
 # >> 米家
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/myTab.* - reject
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
+^https?+:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+^https?+:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
+^https?+:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
+^https?+:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? - reject
+
 # >> 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve - reject
+
 # >> 虎牙直播
+^https?+:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip - reject
+
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
+
 # >> 百度地图
+^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg - reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads.* - reject
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/.*mp4 - reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/[\s\S]*(jpg|gif|png|jpeg) - reject
@@ -29,21 +78,25 @@
 ^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4) - reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* - reject
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png - reject
+
 # >> 生日助手
 ^http:\/\/api\.wolong\.tv\/wolong\/app\/ad\/config\?.* - reject
 ^http:\/\/api\.wolong\.tv\/wolong\/ad\/splash\?.* - reject
-# >> 云闪付
-^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/large\/kjp0416\.png$ - reject
+
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
+^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do - reject
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 - reject
 # >> 杭州市民卡
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad\/.* - reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/.* - reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ - reject
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetUnreadMsgByUserId\.ext$ - reject
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ - reject
+
 # >> 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* - reject
+
 # >> 淘宝
 ^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ - reject
 ^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
@@ -56,9 +109,28 @@
 ^https?+:\/\/s3plus\.meituan\.net\/.+?\/linglong\/.+?\.(?>gif|jpg|mp4) - reject
 
 # >> 腾讯视频
-^https?+:\/\/vv\.video\.qq\.com\/(getvmind|getvinfo|checktime)\? - reject
-^http:\/\/.+.\/vlive\.qqvideo\.tc\.qq\.com\/.+?\.mp4\? url - reject
+^https+:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+^http:\/\/.+.\.tc\.qq\.com\/.+.\.mp4\?.* - reject
 
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
-^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/newMax - reject
+^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl - reject
+^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
+^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ - reject
+^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
+^https:\/\/apiwz\.midukanshu\.com\/config\/getAds - reject
+
+# >>萤石云
+^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? - reject
+^https:\/\/i\.ys7\.com\/api\/ads\/ - reject
+^https:\/\/ecapi-flood\.ys7\.com\/v1\/ - reject
+^https:\/\/api\.ys7\.com\/v3\/configurations\/system\/info - reject
+^https:\/\/api\.ys7\.com\/v3\/smarthome\/scene\/v1\/ - reject
+^https:\/\/api\.ys7\.com\/v3\/clouds\/cloudbiz\/ - reject
+^https:\/\/api\.ys7\.com\/v3\/config\/valueAddedInfo - reject
+
+# > 京东
+^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ - reject
+^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ - reject
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
