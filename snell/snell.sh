@@ -5,92 +5,27 @@ CONF="/etc/snell/snell-server.conf"
 SYSTEMD="/etc/systemd/system/snell.service"
 apt-get install unzip -y
 apt-get install wget -y
-
 cd ~/
 wget --no-check-certificate -O snell.zip https://github.com/surge-networks/snell/releases/download/v2.0.1/snell-server-v2.0.1-linux-amd64.zip
 unzip -o snell.zip
 rm -f snell.zip
 chmod +x snell-server
 mv -f snell-server /usr/local/bin/
-
 if [ -f ${CONF} ]; then
-  echo -e " \033[1;32m 已安装 \033[0m Snell"
-
-  echo
-  echo
-  echo
-
-  echo -e  "\033[1;33m Snell 配置 \033[0m"
-  echo "============================="
-  cat /etc/snell/snell-server.conf
-  echo "============================="
-
+  echo "Found existing config..."
   else
-    echo -e " \033[1;32m 开始安装 \033[0m Snell"
-  if [ -z ${snell_port} ]; then
-    echo -e "请输入 Snell 端口 [1-65535]"
-    read -e -p "(默认: 12312):" snell_port
-    [[ -z "${snell_port}" ]] && snell_port="12312"
-
-		echo "============================="
-		echo -e "端口 : \033[43;35m ${snell_port} \033[0m"
-		echo "============================="
-
-  else
-    echo "============================="
-		echo -e "端口 : \033[43;35m 12312 \033[0m"
-		echo "============================="
-  fi
-
-  if [ -z ${snell_obfs} ]; then
-    echo -e "请输入 obfs ( tls / http / off ) "
-    read -e -p "(默认: tls):" snell_obfs
-    [[ -z "${snell_obfs}" ]] && snell_obfs="tls"
-
-		echo "============================="
-		echo -e "obfs : \033[43;35m ${snell_obfs} \033[0m"
-		echo "============================="
-
-  else
-    echo "============================="
-		echo -e "obfs : \033[43;35m tls \033[0m"
-		echo "============================="
-  fi
-
   if [ -z ${PSK} ]; then
     PSK=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 16)
-    echo "随机生成 psk "
-    echo "============================="
-		echo -e "PSK : \033[43;35m ${PSK} \033[0m"
-		echo "============================="
-
+    echo "Using generated PSK: ${PSK}"
   else
-
-    echo "============================="
-    echo -e "PSK : \033[43;35m ${PSK} \033[0m"
-    echo "============================="
-
+    echo "Using predefined PSK: ${PSK}"
   fi
-
   mkdir /etc/snell/
   echo "Generating new config..."
   echo "[snell-server]" >>${CONF}
-  echo "listen = 0.0.0.0:${snell_port}" >>${CONF}
+  echo "listen = 0.0.0.0:13254" >>${CONF}
   echo "psk = ${PSK}" >>${CONF}
-  echo "obfs = ${snell_obfs}" >>${CONF}
-
-  echo
-  echo
-  echo
-
-
-  echo -e  "\033[1;33m Snell 配置 \033[0m"
-  echo "============================="
-  echo "[snell-server]"
-  echo "listen = 0.0.0.0:${snell_port}"
-  echo "psk = ${PSK}"
-  echo "obfs = ${snell_obfs}"
-  echo "============================="
+  echo "obfs = tls" >>${CONF}
 fi
 if [ -f ${SYSTEMD} ]; then
   echo "Found existing service..."
