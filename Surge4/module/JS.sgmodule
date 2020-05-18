@@ -27,5 +27,7 @@ tb_历史价 = type=http-response,pattern=https?://trade-acs\.m\.taobao\.com/gw/
 米读vip = type=http-response,pattern=https:\/\/apiwz\.midukanshu\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/midu.js,script-update-interval=0
 米读home = type=http-response,pattern=https:\/\/apiwz\.midukanshu\.com\/fiction\/config\/getHome,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/miduhome.js,script-update-interval=0
 
+人人视频 = type=http-response,pattern=https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js,script-update-interval=0
+
 [MITM]
-hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn,apiwz.midukanshu.com
+hostname = %APPEND% account.wps.cn,*.googlevideo.com,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,trade-acs.m.taobao.com,*.xiaoxiao*.com,newdrugs.dxy.cn,apiwz.midukanshu.com,*.rr.tv
