@@ -9,7 +9,7 @@
 腾讯视频 = type=http-request,pattern=https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
 
-人人视频 = type=http-request,pattern=https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
+人人视频 = type=http-request,pattern=https:\/\/api\.rr\.tv\/user\/profile,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
 
 [MITM]
 hostname = %APPEND% www.52pojie.cn, api.m.jd.com, *.video.qq.com,*.rr.tv
