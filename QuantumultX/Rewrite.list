@@ -133,3 +133,6 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
+# > 抖音国际版
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+(?<=(carrier|account|sys)_region=)CN url 307 JP
