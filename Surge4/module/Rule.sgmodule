@@ -109,8 +109,8 @@
 ^https?+:\/\/s3plus\.meituan\.net\/.+?\/linglong\/.+?\.(?>gif|jpg|mp4) - reject
 
 # >> 腾讯视频
-^https+:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 ^http:\/\/.*\.tc\.qq\.com\/.+.\.1\.mp4\?.* - reject
+^http:\/\/vv\.video\.qq\.com\/(checktime|getvmind\?) - reject
 
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
