@@ -110,7 +110,7 @@
 
 # >> 腾讯视频
 ^https+:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^http:\/\/.+.\.tc\.qq\.com\/.+.\.mp4\?.* - reject
+^http:\/\/.*\.tc\.qq\.com\/.+.\.1\.mp4\?.* - reject
 
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
