@@ -8,4 +8,4 @@
 
 吾爱破解 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
           
-人人视频 = type=cron,cronexp=cron "50 23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+人人视频 = type=cron,cronexp=cron "7 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
