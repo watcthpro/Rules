@@ -28,7 +28,6 @@
 ^https?://static.m.ttkvod.com/static_cahce/index/index.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/index.txt$2ogtre5vp0.bkt.clouddn.com$3
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
-^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) - reject
 ^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad - reject
 ^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking) - reject
 ^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ - reject
