@@ -10,7 +10,7 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 
 微信 = type=http-request,pattern=https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/WeChat.js
 
-YouTube = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/YouTube.js
+YouTube = type=http-response,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/YouTube.js
 
 jd_历史价 = type=http-response,pattern=https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
