@@ -3,6 +3,10 @@
 
 [URL Rewrite]
 
+# >麻花影视
+^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
+
+
 # > Gofun
 ^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
 
