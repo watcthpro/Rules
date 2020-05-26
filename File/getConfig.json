@@ -1,0 +1,97 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "appId": 2,
+    "ad_bottom_url": "https://cfg.aiclk.com/hdjump?iclicashid=7718424",
+    "dinFont": "https://img.midukanshu.com/browser/read/DIN-Bold.otf",
+    "welfare_h5_header": 1,
+    "getStep": "300",
+    "sandBoxMode": "0",
+    "welfare_version": "1",
+    "wxPayAppId": "wx7a27f9dce24a9384",
+    "bottomTab": [
+      {
+        "id": "1",
+        "name": "书城"
+      },
+      {
+        "id": "2",
+        "name": "分类"
+      },
+      {
+        "id": "3",
+        "name": "书架"
+      },
+      {
+        "id": "5",
+        "name": "我的"
+      }
+    ],
+    "keep": {
+      "notices": [
+      ],
+      "process": "1",
+      "floatFrame": "2"
+    },
+    "ipLimit": 0,
+    "isBookUser": "0",
+    "bootomTab": [
+      {
+        "id": "1",
+        "name": "书城"
+      },
+      {
+        "id": "2",
+        "name": "分类"
+      },
+      {
+        "id": "3",
+        "name": "书架"
+      },
+      {
+        "id": "5",
+        "name": "我的"
+      }
+    ],
+    "cpcHotStartWelcomeTime": 10,
+    "report": {
+      "reportReadTime": "300000",
+      "intervalTime": "3000",
+      "stopTime": "1000"
+    },
+    "readTimeReportInterval": "604800000",
+    "taoSecret": "",
+    "bottomSkin": "",
+    "fictionConfig": {
+      "gamecenterUrl": "",
+      "like": {
+        "newLocation": "2"
+      },
+      "likeStyle": "1",
+      "chapterCdnUrl": "https://img.midukanshu.com/browser/pro/book/chapterlist/BOOKID.txt",
+      "explainUrl": "https://m.midukanshu.com/faq/index.html?appVersion=305",
+      "aboutUsUrl": "https://m.midukanshu.com/faq/about.html",
+      "screen": {
+        "status": "2",
+        "closeButton": "2",
+        "openLockScreen": "2",
+        "style": "1"
+      },
+      "adReadStep": "2",
+      "iosStatus": "2",
+      "shoppingUrl": "https://m.midukanshu.com/shopping_mall/index.html",
+      "userId": "1051091956",
+      "screen51": {
+        "status": "2",
+        "jump": "",
+        "style": ""
+      },
+      "shareUrl": "https://static-mdwz-app.1sapp.com/share_novel_reader/novelDetails.html",
+      "bookshelf_bg": "",
+      "flavorPopupInterval": "6",
+    },
+    "font": "https://img.midukanshu.com/browser/read/FandolSong-Bold.otf"
+  },
+  "currentTime": 1590501116
+}
