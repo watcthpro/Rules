@@ -6,7 +6,6 @@
 # >麻花影视
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
 
-
 # > Gofun
 ^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
 
@@ -44,6 +43,7 @@
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
 ^http:\/\/.+.\/AdService\/  - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
+
 # >> 百度地图
 ^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg - reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads.* - reject
@@ -54,7 +54,6 @@
 ^https:\/\/.*\.bdstatic\.com\/[\s\S]*?(jpg|gif|png|jpeg|mp4) - reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* - reject
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png - reject
-
 
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
@@ -90,7 +89,7 @@
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl - reject
 ^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
-^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ - reject
+#^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getAds - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/getShowInfo$ - reject
