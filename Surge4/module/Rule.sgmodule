@@ -92,7 +92,7 @@
 #^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getAds - reject
-^https:\/\/apiwz\.midukanshu\.com\/advert\/getShowInfo$ - reject
+^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 
 # >>萤石云
 ^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? - reject
