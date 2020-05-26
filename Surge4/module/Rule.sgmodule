@@ -88,10 +88,10 @@
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl - reject
-^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
+#^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
 #^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/getAds - reject
+#^https:\/\/apiwz\.midukanshu\.com\/config\/getAds - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 
 # >>萤石云
