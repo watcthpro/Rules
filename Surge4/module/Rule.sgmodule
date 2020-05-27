@@ -87,8 +87,8 @@
 ^http:\/\/vv\.video\.qq\.com\/(checktime|getvmind\?) - reject
 
 # >>米读
-^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ - reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl - reject
+^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed)\/ - reject
+^https:\/\/apiwz\.midukanshu\.com\/config\/(getWhiteUrl|getAds) - reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 
