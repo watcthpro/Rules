@@ -41,8 +41,9 @@
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
-^http:\/\/.+.\/AdService\/  - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
+^http:\/\/.+.\/AdService\/ - reject
+^.+.\/MobileAdServer\/getMobileLyricAd\.do\? - reject
 
 # >> 百度地图
 ^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg - reject
