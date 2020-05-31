@@ -102,7 +102,6 @@
 ^https:\/\/api\.ys7\.com\/v3\/config\/valueAddedInfo - reject
 
 # > 京东
-^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ - reject
 ^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ - reject
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
