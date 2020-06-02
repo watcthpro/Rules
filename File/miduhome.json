@@ -1,8 +1,4 @@
-var obj = JSON.parse($response.body);
-
-var id = obj.userid;
-
-obj = {
+{
 
   "code" : 0,
   "message" : "成功",
@@ -82,8 +78,3 @@ obj = {
   ],
   "currentTime" : 1588986982
 }
-
-
-obj.userid = id;
-
-$done({ body: JSON.stringify(obj) });
