@@ -1,6 +1,0 @@
-#!name=hostname
-#!desc={自用MitM｝
-
-[MITM]
-
-hostname = %INSERT% www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,newclient.map.baidu.com,wallet.95516.com,*.dingtalk.com,*.feng.com,img.youpin.mi-img.com,*.amap.com,api.jr.mi.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn
