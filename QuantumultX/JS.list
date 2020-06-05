@@ -25,10 +25,6 @@ hostname = api.m.jd.com,account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.c
 
 # 小小影视Vip (By Meeta)
 https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
-
-# 米读
-^https:\/\/apiwz\.midukanshu\.com\/user\/relation\/equityInfo url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/midu.js
-^https:\/\/apiwz\.midukanshu\.com\/fiction\/config\/getHome url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/miduhome.js
 # 人人视频
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 
