@@ -5,9 +5,9 @@ CONF="/etc/snell/snell-server.conf"
 SYSTEMD="/etc/systemd/system/snell.service"
 apt-get install unzip -y
 cd ~/
-wget https://github.com/surge-networks/snell/releases/download/v2.0.1/snell-server-v2.0.1-linux-amd64.zip
-unzip snell-server-v2.0.1-linux-amd64.zip
-rm -f snell-server-v2.0.1-linux-amd64.zip
+wget https://github.com/surge-networks/snell/releases/download/v2.0.2/snell-server-v2.0.2-linux-amd64.zip
+unzip snell-server-v2.0.2-linux-amd64.zip
+rm -f snell-server-v2.0.2-linux-amd64.zip
 chmod +x snell-server
 mv -f snell-server /usr/local/bin/
 if [ -f ${CONF} ]; then
