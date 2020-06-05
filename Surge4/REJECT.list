@@ -1,5 +1,6 @@
 
 # 广告屏蔽
+DOMAIN,ios.bugly.qq.com
 DOMAIN,cmapi.dingyueads.com
 DOMAIN-SUFFIX,gDOMAINtty.cn
 DOMAIN,cdn.zhunishunli.com
