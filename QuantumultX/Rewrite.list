@@ -93,9 +93,6 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetUnreadMsgByUserId\.ext$ url reject-200
 ^http:\/\/activity\.96225\.com\/ext_smk_activity\/extGetNoticeAndMsg\.ext$ url reject-200
 
-# >> 滴滴出行
-^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/.* url reject-200
-
 # >> 淘宝
 ^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ url reject-200
 ^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ url reject-200
