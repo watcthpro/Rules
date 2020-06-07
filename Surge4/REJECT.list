@@ -73,11 +73,9 @@ DOMAIN,vip.jiangrenzhiguo.com
 # 12306
 DOMAIN,ad.12306.cn
 # 腾讯视频
-mcgi.v.qq.com
-yoo.gtimg.com
-wa.gtimg.com
-pgdt.gtimg.cn
-dp3.qq.com
-news.l.qq.com
-# 广告屏蔽视频
-# 广告屏蔽
+DOMAIN,mcgi.v.qq.com
+DOMAIN,yoo.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,dp3.qq.com
+DOMAIN,news.l.qq.com
