@@ -70,17 +70,5 @@ DOMAIN-SUFFIX,snssdk.com
 # 麻花影视
 DOMAIN,z9.cnzz.com
 DOMAIN,vip.jiangrenzhiguo.com
-# 腾讯视频
-DOMAIN,news.l.qq.com
-DOMAIN,dldir1.qq.com
-DOMAIN,info4.video.qq.com
-DOMAIN,info6.video.qq.com
-DOMAIN,voreader.reader.qq.com
-DOMAIN,p.l.qq.com
-DOMAIN,api.unipay.qq.com
-DOMAIN,puui.qpic.cn
-DOMAIN,mcgi.v.qq.com
-DOMAIN,bkvv.video.qq.com
-DOMAIN,btrace.qq.com
 # 12306
 DOMAIN,ad.12306.cn
