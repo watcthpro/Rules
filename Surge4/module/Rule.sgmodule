@@ -59,9 +59,8 @@
 ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/[\s\S]*?\.php\?.* - reject
 ^https:\/\/map-mobile-lbsapp\.cdn\.bcebos\.com\/cxzsqipao2x\.png - reject
 # >> 高德地图
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
 
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
-^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+\.gif$ - reject
 # >> 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do - reject
