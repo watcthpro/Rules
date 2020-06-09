@@ -46,7 +46,6 @@
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
 ^http:\/\/.+.\/AdService\/ - reject
-.+.\/MobileAdServer\/ - reject
 
 # >> 百度地图
 ^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg - reject
