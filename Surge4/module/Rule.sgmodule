@@ -3,6 +3,11 @@
 
 [URL Rewrite]
 
+# >人人视频
+^https?:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
+^https?:\/\/api\.rr\.tv\/ad\/ - reject
+^https?:\/\/api\.rr\.tv\/.*(getAll|Version) - reject
+
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ - reject
 
