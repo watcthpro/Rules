@@ -112,4 +112,4 @@
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
 
 # 唯品会
-https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/
+https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
