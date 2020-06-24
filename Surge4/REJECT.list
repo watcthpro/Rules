@@ -57,10 +57,7 @@ DOMAIN,api.gzxiongwa.cn
 DOMAIN,image.sxybjjz.cn
 DOMAIN,dg.jianglongjie.cn
 DOMAIN,api.sjmwkj.cn
-# 绕过App企业证书过期
-DOMAIN,ocsp.apple.com
-# 畅小说
-DOMAIN-SUFFIX,dingyueads.com
+
 # 小米快贷
 DOMAIN,tr.iadsdk.apple.com
 # 虎牙直播
