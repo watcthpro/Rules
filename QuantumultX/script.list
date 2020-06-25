@@ -20,5 +20,5 @@ hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com,
 ^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.+.\/getBidResource url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
 
 #人人视频 (by@george Jiang & R)
-^https:\/\/api\.rr\.tv\/v\dplus\/index\/channel$, url script-response-body https://raw.githubusercontent.com/scomper/Surge/master/Scripts/rrsp.js
-^https:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info, url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
+^https:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON, url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail), url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
