@@ -108,14 +108,6 @@ hostname = www.youtube.com,youtubei.googleapis.com,m.youtube.com,s.youtube.com,n
 ^https+:\/\/vv\.video\.qq\.com\/getvmind\? url reject-200
 ^http:\/\/.*\.tc\.qq\.com\/.+.\.1\.mp4\?.* url reject-200
 
-
-# >>米读
-^https:\/\/apiwz\.midukanshu\.com\/fiction\/recommend\/ url reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/getWhiteUrl url reject
-^https:\/\/apiwz\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData url reject
-^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/ url reject
-^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/getAds url reject
 # >>萤石云
 ^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? url reject
 ^https:\/\/i\.ys7\.com\/api\/ads\/ url reject
