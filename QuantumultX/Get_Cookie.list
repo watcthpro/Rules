@@ -6,5 +6,5 @@ hostname= www.52pojie.cn,*.video.qq.com
 #腾讯视频获取cookie
 ^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
-# 人人视频获取cookie
+# 人人视频
 ^https:\/\/api\.rr\.tv\/user\/profile url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
