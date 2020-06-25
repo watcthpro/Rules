@@ -1,0 +1,12 @@
+#!name=米读
+#!desc=自用js
+
+[Script]
+
+getADS = type=http-request,pattern=https:\/\/api\.midukanshu\.com\/(advert|config)\/(getAds|getShowInfo),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
+reads = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/fiction\/speed\/reads,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
+del书架界面猜你喜欢 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/fiction\/scene\/getLike,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
+del退出阅读时界面推荐 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/fiction\/recommend\/quitRead,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
+米读去ads加载 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/advert\/(newReadEndnn|getPopupConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.active.js,script-update-interval=0
+米读去内容底部ads = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/popup\/readerFloat,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
+去有请大佬发言 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/fiction\/recommend\/chapterEndV2,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=0
