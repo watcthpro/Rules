@@ -22,6 +22,8 @@ hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com,
 #人人视频 (by@george Jiang & R)
 ^https:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
+^https:\/\/api\.rr\.tv\/constant\/get\/all url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+^http:\/\/raddus\.bayescom\.com\/raddus url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.imp.js
 
 # 京东历史价
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
