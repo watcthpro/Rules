@@ -1,4 +1,4 @@
-hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com
+hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com,*.96225.com
 
 # 去微信公众号广告 (By Choler)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
@@ -15,3 +15,7 @@ hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com
 
 # 高德地图
 https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\? url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+
+# 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.+.\/getBidResource url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
+
