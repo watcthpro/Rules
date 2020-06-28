@@ -1,4 +1,4 @@
 hostname=newclient.map.baidu.com,180.101.212.22
 
-
+# 百度地图
 ^https:\/\/.+\/client\/phpui2\/\?qt=.+ url reject
