@@ -1,4 +1,4 @@
-hostname=newclient.map.baidu.com
+hostname=newclient.map.baidu.com,180.101.212.22
 
 
-^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=.+ url reject
+^https:\/\/.+\/client\/phpui2\/\?qt=.+ url reject
