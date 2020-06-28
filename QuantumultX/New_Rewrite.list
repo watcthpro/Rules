@@ -2,3 +2,4 @@ hostname=newclient.map.baidu.com,180.101.212.22,180.101.212.21
 
 # 百度地图
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
+^https:\/\/newclient\.map\.baidu\.com\/client\/noticebar\/get\?screen= url reject
