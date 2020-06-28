@@ -1,4 +1,4 @@
 hostname=newclient.map.baidu.com
 
 
-^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject
+^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=.+ url reject
