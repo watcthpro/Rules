@@ -1,5 +1,25 @@
-hostname=newclient.map.baidu.com,180.101.212.22,180.101.212.21
+hostname=newclient.map.baidu.com,180.101.212.22,180.101.212.21,*.dingtalk.com,mbs.boc.cn,*.feng.com,gab.122.gov.cn,api.jr.mi.com,*.msstatic.com
 
 # 百度地图
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
 ^https:\/\/newclient\.map\.baidu\.com\/client\/noticebar\/get\?screen= url reject
+
+# 钉钉
+^http:\/\/static\.dingtalk\.com\/media\/.* url reject
+
+# 中国银行
+^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
+^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
+
+# 威锋
+^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
+^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
+
+# 交管12123
+^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
+
+# 虎牙直播
+^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject
+^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
