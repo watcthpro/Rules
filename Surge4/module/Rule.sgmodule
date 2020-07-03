@@ -55,7 +55,7 @@
 
 # >> 百度地图
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url - reject
-^https:\/\/newclient\.map\.baidu\.com\/client\/noticebar\/get\?screen= - reject
+^https:\/\/.+\/client\/noticebar\/get\?screen= - reject
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png - reject
 
 # >> 高德地图
