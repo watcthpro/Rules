@@ -3,8 +3,13 @@
 
 [URL Rewrite]
 
+# >农业银行
+^https:\/\/imagesh1\.abchina\.com\/enjoy\/yx-engine-web\/file\/download\/ - reject
+^https:\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/ - reject
+
 # >小小影视评论
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
+
 # >人人视频
 ^https?:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
