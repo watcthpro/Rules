@@ -30,6 +30,6 @@ if ($request.url.indexOf(path2) != -1){
 
 if ($request.url.indexOf(ad) != -1) {
 delete obj.data.adrows
-delete obj.data.hotwords
+delete obj.data.popupactivity_iOS
 }
 $done({body: JSON.stringify(obj)});
