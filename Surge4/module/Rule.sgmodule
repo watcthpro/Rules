@@ -93,7 +93,8 @@
 
 # >> 腾讯视频
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
-
+^http:\/\/.*\/variety\.tc\.qq\.com\/.*\.mp4\? - reject
+^http:\/\/.*\/vlive\.qqvideo\.tc\.qq\.com\/.*\.1\.mp4 - reject
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed)\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/(getWhiteUrl|getAds) - reject
