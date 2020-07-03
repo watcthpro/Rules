@@ -3,6 +3,8 @@
 
 [URL Rewrite]
 
+# >小小影视评论
+^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
 # >人人视频
 ^https?:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
