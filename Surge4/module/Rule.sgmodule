@@ -17,6 +17,7 @@
 
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ - reject
+^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*\.gif$ - reject
 
 # >麻花影视
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
