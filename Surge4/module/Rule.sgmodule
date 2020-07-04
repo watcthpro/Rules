@@ -59,7 +59,6 @@
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
-^http:\/\/.+.\/AdService\/ - reject
 
 # >> 百度地图
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url - reject
