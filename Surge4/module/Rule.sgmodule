@@ -3,10 +3,6 @@
 
 [URL Rewrite]
 
-# >农业银行
-^https:\/\/imagesh1\.abchina\.com\/enjoy\/yx-engine-web\/file\/download\/ - reject
-^https:\/\/enjoy\.abchina\.com\/yx-engine-web\/engine\/ - reject
-
 # >小小影视评论
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
 
@@ -57,6 +53,7 @@
 
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
+^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/getcache\?user= - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
 
