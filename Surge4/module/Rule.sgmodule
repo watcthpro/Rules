@@ -53,7 +53,7 @@
 
 # >> 酷我音乐
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
-^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/getcache\?user= - reject
+^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/ - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
 
