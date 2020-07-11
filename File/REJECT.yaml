@@ -11,6 +11,11 @@ payload:
   - DOMAIN,ori-myphone-download.wondershare.cc
   - DOMAIN,my.wondershare.com
   - DOMAIN,resource.wondershare.com
+  # 网易云音乐
+  - DOMAIN,admusicpic.music.126.net
+  - DOMAIN,iadmat.nosdn.127.net
+  - DOMAIN,iadmusicmat.music.126.net
+  - DOMAIN,iadmusicmatvideo.music.126.net
   
   # > Other
   - DOMAIN-SUFFIX,ad.video.51togic.com
