@@ -98,6 +98,7 @@
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
+^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
 # >>萤石云
 ^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? - reject
 ^https:\/\/i\.ys7\.com\/api\/ads\/ - reject
