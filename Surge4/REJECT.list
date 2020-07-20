@@ -57,6 +57,8 @@ DOMAIN,api.gzxiongwa.cn
 DOMAIN,image.sxybjjz.cn
 DOMAIN,dg.jianglongjie.cn
 DOMAIN,api.sjmwkj.cn
+DOMAIN-SUFFIX,hbatna.cn
+DOMAIN-SUFFIX,songshugame.cn
 
 # 小米快贷
 DOMAIN,tr.iadsdk.apple.com
