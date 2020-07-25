@@ -1,3 +1,6 @@
+/*
+https:\/\/.*\/getGlobalData
+*/
 const ad = 'getGlobalData';
 var obj = JSON.parse($response.body);
 if ($request.url.indexOf(ad) != -1) {
