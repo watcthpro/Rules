@@ -2,9 +2,10 @@
 #!desc=TikTok lock
 
 [URL Rewrite]
-(.*video_id=\w{32})(.*watermark=)(.*) $1 302
-(?<=(carrier|account|sys)_region=)CN JP 307
-(?<=&?watermark=)1(?=.*) 0 302
+
+(?<=_region=)CN(?=&) TW 307
+(?<=&app_version=)17..(?=.?.?&) 1 307
+(?<=\?version_code=)17..(?=.?.?&) 1 307
 
 
 [MITM]
