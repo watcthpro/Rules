@@ -2,10 +2,10 @@
 #!desc=TikTok lock
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) url 307 HK
-(?<=&app_version=)17..(?=.?.?&) url 307 1
-(?<=\?version_code=)17..(?=.?.?&) url 307 1
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+(?<=(carrier|account|sys)_region=)CN url 307 HK
+(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 17.0.0
 
 
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
