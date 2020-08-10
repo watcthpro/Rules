@@ -2,7 +2,7 @@
 #!desc=TikTok lock
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) url 307 MO
+(?<=_region=)CN(?=&) url 307 HK
 (?<=&app_version=)17..(?=.?.?&) url 307 1
 (?<=\?version_code=)17..(?=.?.?&) url 307 1
 
