@@ -81,10 +81,9 @@
 ^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ - reject
 
 # >> 美团
-^https?+:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ - reject
-^https?+:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg - reject
-^https?+:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp - reject
-^https?+:\/\/s3plus\.meituan\.net\/.+?\/linglong\/.+?\.(?>gif|jpg|mp4) - reject
+^https:\/\/p0\.meituan\.net\/linglong\/.*\.gif$ - reject
+^https:\/\/flowplus\.meituan\.net\/v1\/.*\.gif$ - reject
+^https:\/\/img\.meituan\.net\/midas\/.*\.jpg\.webp$ - reject
 
 # >> 腾讯视频
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
