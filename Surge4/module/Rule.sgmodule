@@ -3,6 +3,10 @@
 
 [URL Rewrite]
 
+
+# >唯品会
+^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
+
 # >小小影视评论
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
 # >人人视频
@@ -89,6 +93,7 @@
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
 ^http:\/\/.*\/variety\.tc\.qq\.com\/.*\.mp4\? - reject
 ^http:\/\/.*\/vlive\.qqvideo\.tc\.qq\.com\/.*\.1\.mp4 - reject
+
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed)\/ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/(getWhiteUrl|getAds) - reject
@@ -96,6 +101,7 @@
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
+
 # >>萤石云
 ^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? - reject
 ^https:\/\/i\.ys7\.com\/api\/ads\/ - reject
@@ -110,6 +116,3 @@
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
 ^https:\/\/img10\.360buyimg\.com\/mcmktresadmin\/jfs.+.width=520&height=780$ - reject
-
-# 唯品会
-https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
