@@ -103,13 +103,9 @@
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
 
 # >>萤石云
-^https:\/\/api\.gec-sc\.com\/v1\/advertisement\/advShows\? - reject
+^https:\/\/api\.ys7\.com\/api\/ads\/ - reject
+^https:\/\/api\.ys7\.com\/v3\/adService\/ - reject
 ^https:\/\/i\.ys7\.com\/api\/ads\/ - reject
-^https:\/\/ecapi-flood\.ys7\.com\/v1\/ - reject
-^https:\/\/api\.ys7\.com\/v3\/configurations\/system\/info - reject
-^https:\/\/api\.ys7\.com\/v3\/smarthome\/scene\/v1\/ - reject
-^https:\/\/api\.ys7\.com\/v3\/clouds\/cloudbiz\/ - reject
-^https:\/\/api\.ys7\.com\/v3\/config\/valueAddedInfo - reject
 
 # > 京东
 ^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ - reject
