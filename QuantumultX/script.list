@@ -1,4 +1,4 @@
-hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com
+hostname = mp.weixin.qq.com,*.kuwo.cn,.*appss*.com,account.wps.*,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com
 
 # 去微信公众号广告 (By Choler)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
@@ -8,7 +8,7 @@ hostname = mp.weixin.qq.com,*.kuwo.cn,*.xiaoxiao*.com,account.wps.*,m5.amap.com,
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
 
 # 小小影视Vip (By Meeta)
-^https:\/\/.*\.*apps*.\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
+^https:\/\/.*\.*apps*.\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys_ad.js
 
 # WPS (By eHpo)
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
