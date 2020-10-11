@@ -28,6 +28,7 @@ delete obj.data.adgroups
 delete obj.data.iOS_adgroups
 delete obj.data.sdkrows_iOS
 delete obj.data.sdkrows_Android
+delete obj.data.Android_adgroups
 
 }
 $done({body: JSON.stringify(obj)});
