@@ -24,7 +24,7 @@ if ($request.url.indexOf(path2) != -1){
 
 if ($request.url.indexOf(ad) != -1) {
 delete obj.data.adrows
-delete obj.data.adgrous
+delete obj.data.adgroups
 delete obj.data.iOS_adgroups
 delete obj.data.sdkrows_iOS
 
