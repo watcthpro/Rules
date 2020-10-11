@@ -3,7 +3,7 @@ const path1 = "/vod/reqplay/";
 const ad = 'getGlobalData';
 var obj = JSON.parse($response.body);
 
-if ($request.url.indexOf(path2) != -1){
+if ($request.url.indexOf(path1) != -1){
 	obj.retcode = "0";
 	obj.data.lastplayindex = "1";
 	if(obj.data.hasOwnProperty("httpurl_preview")){
