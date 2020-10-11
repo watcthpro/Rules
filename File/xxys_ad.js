@@ -27,6 +27,6 @@ delete obj.data.adrows
 delete obj.data.adgroups
 delete obj.data.popupactivity_iOS
 delete obj.data.iOS_adgroups
-delete obj.data.popuptext_iOS
+delete obj.data.text
 }
 $done({body: JSON.stringify(obj)});
