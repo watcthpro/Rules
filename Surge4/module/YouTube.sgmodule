@@ -1,6 +1,7 @@
 #!name=YouTube
 #!desc=YouTube去广告
 
+[URL Rewrite]
 ctier=[A-Z] ctier=A 302
 ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) - reject
 
