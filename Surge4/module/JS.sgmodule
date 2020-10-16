@@ -17,7 +17,6 @@ tb_历史价 = type=http-response,pattern=https?://trade-acs\.m\.taobao\.com/gw/
 
 小小影视 = type=http-response,pattern=https:\/\/.*\.com\/getGlobalData,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys_ad.js
 
-
 人人视频 = type=http-response,pattern=https:\/\/api\.rr\.tv\/ad\/getAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/rrtv_ad.js
 
 杭州市民卡 = type=http-response,pattern=https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.+.\/getBidResource requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
