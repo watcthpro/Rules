@@ -1,5 +1,5 @@
 #!name=Rule
-#!desc={自用Rule}
+#!desc={10.16修改美团}
 
 [URL Rewrite]
 
@@ -85,9 +85,10 @@
 ^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ - reject
 
 # >> 美团
+^https:\/\/flowplus\.meituan\.net\/v1\/ - reject
+^https:\/\/img\.meituan\.net\/midas\/ - reject
+https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ - reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.*\.gif$ - reject
-^https:\/\/flowplus\.meituan\.net\/v1\/.*\.gif$ - reject
-^https:\/\/img\.meituan\.net\/midas\/.*\.jpg\.webp$ - reject
 
 # >> 腾讯视频
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
