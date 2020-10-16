@@ -87,8 +87,10 @@
 # >> 美团
 ^https:\/\/flowplus\.meituan\.net\/v1\/ - reject
 ^https:\/\/img\.meituan\.net\/midas\/ - reject
-https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ - reject
+^https:\/\/p0\.meituan\.net\/travelcube\/ - reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.*\.gif$ - reject
+^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ - reject
+^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ - reject
 
 # >> 腾讯视频
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
