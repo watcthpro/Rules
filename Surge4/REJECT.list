@@ -1,5 +1,7 @@
 
 # 广告屏蔽
+
+DOMAIN,googleads.g.doubleclick.net
 DOMAIN,ios.bugly.qq.com
 DOMAIN,cmapi.dingyueads.com
 DOMAIN-SUFFIX,gDOMAINtty.cn
