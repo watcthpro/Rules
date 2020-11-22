@@ -1,6 +1,5 @@
 
 # 广告屏蔽
-DOMAIN,googleads.g.doubleclick.net
 DOMAIN,ios.bugly.qq.com
 DOMAIN,cmapi.dingyueads.com
 DOMAIN-SUFFIX,gDOMAINtty.cn
@@ -80,4 +79,3 @@ DOMAIN,wa.gtimg.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,dp3.qq.com
 DOMAIN,news.l.qq.com
-# 小小影视
