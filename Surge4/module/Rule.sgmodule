@@ -92,6 +92,7 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ - reject
 
 # >> 腾讯视频
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.*\.(jpg|png)\/0\?ck=.* - reject
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
 ^http:\/\/.*\/variety\.tc\.qq\.com\/.*\.mp4\? - reject
 ^http:\/\/.*\/vlive\.qqvideo\.tc\.qq\.com\/.*\.1\.mp4 - reject
