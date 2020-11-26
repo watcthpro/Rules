@@ -15,10 +15,12 @@
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
 ^https?:\/\/api\.rr\.tv\/.*(getAll|Version) - reject
 
+# 花小猪
+^https:\/\/gift-static\.hongyibo\.com\.cn\/static\/ad_oss\/ - reject
+
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ - reject
-^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*\.gif$ - reject
-
+^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ - reject
 # >麻花影视
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
 
