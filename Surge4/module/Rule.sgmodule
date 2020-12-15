@@ -80,7 +80,6 @@
 ^https:\/\/smkmp\.96225\.com\/.+.\/(ad|bid) - reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ - reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ - reject
-^http:\/\/activity\.96225\.com\/ext_smk_activity\/ - reject
 
 # >> 淘宝
 https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
