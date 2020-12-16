@@ -26,5 +26,8 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 杭州市民卡 = type=http-response,pattern=https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.+.\/getBidResource requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
 
 大鱼影视ads = type=http-response,pattern=^https:\/\/ss\.lcjlnjyy\.com:11011\/system\/.+.\/ads\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+
+大鱼影视去顶部推荐 = type=http-response,pattern=https:\/\/ss\.lcjlnjyy\.com:11011\/system\/api\/video\/category\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/odj.data.gap.js
+
 [MITM]
 hostname = %APPEND% account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,*.rr.tv,*.96225.com,member.mkzcdn.com,*.udache.com,api.hongyibo.com.cn,res.hongyibo.com.cn,ss.lcjlnjyy.com:0,*.xxjjappss.com
