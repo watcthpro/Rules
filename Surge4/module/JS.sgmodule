@@ -3,6 +3,9 @@
 
 [Script]
 
+
+高德地图 = type=http-response,pattern=https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+
 花小猪开屏广告 = type=http-response,pattern=^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity\/mget\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
 花小猪.data = type=http-response,pattern=^https:\/\/api\.hongyibo\.com\.cn\/gulfstream\/passenger-center\/v1\/other\/pGetMarketingInfo\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
@@ -10,8 +13,6 @@
 滴滴出行.data = type=http-response,pattern=^https:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v1\/other\/pGetSceneList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
 wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-
-漫客栈 = type=http-response,pattern=https:\/\/member\.mkzcdn\.com\/user\/funds\/info\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/mkzcdn.js
 
 酷我音乐 = type=http-response,pattern=https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 
@@ -30,4 +31,4 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 大鱼影视去顶部推荐 = type=http-response,pattern=https:\/\/ss\.lcjlnjyy\.com:11011\/system\/api\/video\/category\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/odj.data.gap.js
 
 [MITM]
-hostname = %APPEND% account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,*.rr.tv,*.96225.com,member.mkzcdn.com,*.udache.com,api.hongyibo.com.cn,res.hongyibo.com.cn,ss.lcjlnjyy.com:0,*.xxjjappss.com
+hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,mp.weixin.qq.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,*.rr.tv,*.96225.com,*.udache.com,api.hongyibo.com.cn,res.hongyibo.com.cn,ss.lcjlnjyy.com:0,*.xxjjappss.com
