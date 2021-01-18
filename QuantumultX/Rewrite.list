@@ -1,4 +1,4 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,business.msstatic.com
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com
 
 #百度云
 https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
@@ -8,3 +8,5 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/wk\.baidu\.com\/smallapp\/api\/rec\/interface\/ url reject
 # 虎牙直播
 ^https:\/\/business\.msstatic\.com\/advertiser\/  url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource\/  url reject
