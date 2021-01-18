@@ -3,3 +3,5 @@ HOST,api.jr.mi.com,direct
 HOST,sj.uukanshu.com,proxy
 # 百度云
 HOST,wk-video-img.cdn.bcebos.com,REJECT
+# 12306
+HOST,ad.12306.cn,REJECT
