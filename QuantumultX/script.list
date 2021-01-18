@@ -1,14 +1,11 @@
-hostname = mp.weixin.qq.com,*.kuwo.cn,.*appss.com,account.wps.*,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com
+hostname = mp.weixin.qq.com,*.kuwo.cn,account.wps.cn,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com
 
 # 去微信公众号广告 (By Choler)
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 # 酷我音乐SVIP (By yxiaocai)
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
-
-# 小小影视Vip (By Meeta)
-^https:\/\/.*xxjjappss\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys_ad.js
+^https:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+^https:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
 
 # WPS (By eHpo)
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
@@ -16,17 +13,8 @@ hostname = mp.weixin.qq.com,*.kuwo.cn,.*appss.com,account.wps.*,m5.amap.com,*.96
 # 高德地图
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\? url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
-# 杭州市民卡
-^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/.+.\/getBidResource url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
-
-#人人视频 (by@george Jiang & R)
-^https:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
-^https:\/\/api\.rr\.tv\/constant\/get\/all url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-^http:\/\/raddus\.bayescom\.com\/raddus url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.imp.js
-
 # 京东历史价
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
 # 淘宝历史价
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
