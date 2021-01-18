@@ -7,14 +7,18 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/.+.\/rest\/2\.0\/ url reject
 ^https:\/\/wk\.baidu\.com\/smallapp\/api\/rec\/interface\/ url reject
 # 虎牙直播
-^https:\/\/business\.msstatic\.com\/advertiser\/  url reject
+^https:\/\/business\.msstatic\.com\/advertiser\/ url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource\/ url reject
 # 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
 # 高德地图
-^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
-# >> 中国银行
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
+# 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
+# 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
+^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
+^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
