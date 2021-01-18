@@ -1,4 +1,7 @@
-hostname = mp.weixin.qq.com,*.kuwo.cn,account.wps.cn,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com
+hostname = mp.weixin.qq.com,*.kuwo.cn,account.wps.cn,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com,*.xxjjappss.com
+
+# 小小影视去广告
+https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
 
 # 去微信公众号广告 (By Choler)
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
