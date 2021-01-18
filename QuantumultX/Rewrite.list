@@ -1,4 +1,4 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn,mp.weixin.qq.com
 
 #百度云
 https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
@@ -22,3 +22,6 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
+# 微信
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)  url reject
+^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$  url reject
