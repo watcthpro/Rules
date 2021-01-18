@@ -11,9 +11,9 @@
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
 
 # >人人视频
-^https?:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
-^https?:\/\/api\.rr\.tv\/ad\/ - reject
-^https?:\/\/api\.rr\.tv\/.*(getAll|Version) - reject
+^https:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
+^https:\/\/api\.rr\.tv\/ad\/ - reject
+^https:\/\/api\.rr\.tv\/.*(getAll|Version) - reject
 
 # 花小猪
 ^https:\/\/gift-static\.hongyibo\.com\.cn\/static\/ad_oss\/ - reject
@@ -25,10 +25,10 @@
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
 
 # > Gofun
-^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
+^https+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
 
 # >> 微信
-^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
 ^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$ - reject
 
 # >> 钉钉
@@ -45,17 +45,17 @@
 # >> 米家
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/myTab.* - reject
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
-^https?+:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
-^https?+:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
-^https?+:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
-^https?+:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? - reject
+^https:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+^https:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
+^https:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
+^https:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? - reject
 
 # >> 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve - reject
 
 # >> 虎牙直播
-^https?+:\/\/business\.msstatic\.com\/advertiser\/ - reject
-^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
+^https:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip - reject
 
 # >> 酷我音乐
