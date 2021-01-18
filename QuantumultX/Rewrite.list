@@ -1,4 +1,4 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn
 
 #百度云
 https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
