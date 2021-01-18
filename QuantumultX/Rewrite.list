@@ -1,4 +1,4 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn
 
 #百度云
 https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
@@ -9,4 +9,12 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 # 虎牙直播
 ^https:\/\/business\.msstatic\.com\/advertiser\/  url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
-^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource\/  url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource\/ url reject
+# 交管12123
+^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
+# 高德地图
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
+# >> 中国银行
+^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
+^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
