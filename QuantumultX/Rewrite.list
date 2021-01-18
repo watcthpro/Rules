@@ -32,3 +32,7 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 # >> 威锋
 ^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
+# 百度地图
+^https:\/\/.+\/client\/phpui2\/\?qt=ads url - reject
+^https:\/\/.+\/client\/noticebar\/get\?screen= url - reject
+^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png url - reject
