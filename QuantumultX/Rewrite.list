@@ -1,8 +1,7 @@
-hostname=pan.baidu.com,wk.baidu.com
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com
 
 #百度云
-#wk-video-img.cdn.bcebos.com
 ^https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/ url reject
 ^http:\/\/pan\.baidu\.com\/act\/task\/ url reject
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/ url reject
+^https:\/\/.+.\/rest\/2\.0\/ url reject
 ^https:\/\/wk\.baidu\.com\/smallapp\/api\/rec\/interface\/ url reject
