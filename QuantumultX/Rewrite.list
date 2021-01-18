@@ -30,5 +30,5 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 # 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
 # >> 威锋
-^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen  url reject
-^https:\/\/.*\.feng\.com\/.*\/advertisement.*  url reject
+^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
+^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
