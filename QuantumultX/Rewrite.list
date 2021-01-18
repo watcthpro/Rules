@@ -1,5 +1,5 @@
 hostname=dss0.bdstatic.com
 
 #百度云
-^https:\/\/dss0\.bdstatic\.com\/.+._1242_1794\.jpg\? url reject-img
+^https:\/\/dss0\.bdstatic\.com\/.+._1242_1794\.jpg\? url reject
 ^https:\/\/dss0\.bdstatic\.com\/.+\.mp4$ url reject
