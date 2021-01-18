@@ -65,7 +65,7 @@
 ^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
 
 # >> 百度地图
-^https:\/\/.+\/client\/phpui2\/\?qt=ads url - reject
+^https:\/\/.+\/client\/phpui2\/\?qt=ads - reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= - reject
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png - reject
 
