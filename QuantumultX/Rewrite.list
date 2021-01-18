@@ -1,4 +1,5 @@
-hostname=dss0.bdstatic.com
+hostname=pan.baidu.com,wk.baidu.com
 
 #百度云
 ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ url reject
+^https:\/\/wk\.baidu\.com\/smallapp\/api\/rec\/interface\/ url reject
