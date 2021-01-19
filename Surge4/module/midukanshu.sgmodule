@@ -9,4 +9,4 @@ del退出阅读时界面推荐 = type=http-response,pattern=https:\/\/api\.miduk
 米读去ads加载 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/advert\/(newReadEndnn|getPopupConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.active.js
 米读去内容底部ads = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/popup\/readerFloat,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 去有请大佬发言 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/fiction\/recommend\/chapterEndV2,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-ad=type=http-response,https:\/\/api\.midukanshu\.com\/user\/comment\/chapter_biz ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+感谢支持 = type=http-response,pattern=https:\/\/api\.midukanshu\.com\/user\/comment\/chapter_biz ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
