@@ -34,7 +34,7 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
 # 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) url reject
-^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
+^https:\/\/map\-mobile\-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= url reject
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.+\.png url reject
