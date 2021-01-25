@@ -25,6 +25,7 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 # 微信
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject
 ^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$ url reject
+^http:\/\/wx\.qlogo\.cn\/finderhead\/.+ url reject
 # 小米随星借
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? url reject
 # 钉钉
