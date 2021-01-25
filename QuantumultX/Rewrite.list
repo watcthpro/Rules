@@ -1,5 +1,4 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn,mp.weixin.qq.com,api.jr.mi.com,*.feng,180.101.212.21,180.101.212.22
-,map-mobile-opnimg.cdn.bcebos.com,dss0.bdstatic.com
+hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn,mp.weixin.qq.com,api.jr.mi.com,*.feng,180.101.212.21,180.101.212.22,map-mobile-opnimg.cdn.bcebos.com,dss0.bdstatic.com,newclient.map.baidu.com
 #百度云
 https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
 ^https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/ url reject
@@ -34,7 +33,7 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
 # 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) url reject
-^https:\/\/map\-mobile\-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
+^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= url reject
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.+\.png url reject
