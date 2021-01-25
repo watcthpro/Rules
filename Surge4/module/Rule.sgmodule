@@ -80,6 +80,7 @@
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 - reject
 
 # >> 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource - reject
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad - reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ - reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ - reject
