@@ -30,6 +30,7 @@
 # >> 微信
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
 ^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$ - reject
+^http:\/\/wx\.qlogo\.cn\/finderhead\/.+ - reject
 
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* - reject
