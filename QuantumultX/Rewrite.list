@@ -37,4 +37,4 @@ https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reje
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= url reject
-^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png url reject
+^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.+\.png url reject
