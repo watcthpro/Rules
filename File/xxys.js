@@ -10,10 +10,11 @@ if ($request.url.indexOf(adold) != -1) {
 delete obj.data.adrows
 delete obj.data.adgroups
 delete obj.data.iOS_adgroups
-delete obj.data.ad1
-delete obj.data.ad2
-delete obj.data.ad3
-
+delete obj.data.global_adgroup_ad4
+delete obj.data.global_adgroup_ad8
+delete obj.data.global_adgroup_ad16
+delete obj.global_adgroup_ad1
+  
 }
 
 $done({body: JSON.stringify(obj)});
