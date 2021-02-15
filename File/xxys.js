@@ -10,7 +10,7 @@ if ($request.url.indexOf(adold) != -1) {
 delete obj.data.adrows
 delete obj.data.adgroups
 delete obj.data.iOS_adgroups
-delete obj.data.global_adgroup
+delete obj.data.sdkrows_iOS
 
 }
 
