@@ -60,6 +60,8 @@
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip - reject
 
 # >> 酷我音乐
+^http:\/\/.*\/MobileAdServer\/getIosAdInfo\.do\? - reject
+^http:\/\/.*\/AdService\/kaiping\/getcache\? - reject
 ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
 ^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/ - reject
 ^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
