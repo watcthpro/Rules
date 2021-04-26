@@ -44,7 +44,7 @@
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? - reject
 
 # >> 米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/myTab.* - reject
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/ - reject
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
 ^https:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
 ^https:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
