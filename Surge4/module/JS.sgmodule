@@ -2,6 +2,8 @@
 #!desc={自用脚本}
 
 [Script]
+ 警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.hzpolice\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+
 浙里办AD = type=http-response,pattern=https:\/\/portal\.zjzwfw\.gov\.cn\/city\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
 高德地图 = type=http-response,pattern=https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
