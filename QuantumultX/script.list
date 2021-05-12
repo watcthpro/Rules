@@ -1,24 +1,7 @@
-hostname = mp.weixin.qq.com,*.kuwo.cn,account.wps.cn,m5.amap.com,*.96225.com,*.rr.tv,api.m.jd.com,trade-acs.m.taobao.com,*.xxjjappss.com
+hostname = *.xxjjappss.com,*.gov.cn,m5.amap.com,account.wps.cn
 
-# 小小影视去广告
-https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
+浙里办AD = https:\/\/portal\.zjzwfw\.gov\.cn\/city\/appHome\/selectStartPic, url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
-# 去微信公众号广告 (By Choler)
-^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+高德地图 = https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?, url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
-# 酷我音乐SVIP (By yxiaocai)
-^https:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
-^https:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
-
-# WPS (By eHpo)
-^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-
-# 高德地图
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\? url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
-# 京东历史价
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# 淘宝历史价
-^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-^https://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+wps = https:\/\/account\.wps\.cn\/api\/users, url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
