@@ -13,8 +13,6 @@ hostname=*.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ url reject
 ^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ url reject
-# 麻花影视
-^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
 # Gofun
 ^https:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
 # 微信
