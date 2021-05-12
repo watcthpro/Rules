@@ -2,14 +2,11 @@
 #!desc={12.16修改}
 
 [URL Rewrite]
-
-
 # >唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
 
 # >小小影视评论
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
-
 # >人人视频
 ^https:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
 ^https:\/\/api\.rr\.tv\/ad\/ - reject
