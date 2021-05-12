@@ -1,41 +1,124 @@
-hostname=pan.baidu.com,wk.baidu.com,staticsns.cdn.bcebos.com,dss0.bdstatic.com,*.msstatic.com,gab.122.gov.cn,mbs.boc.cn,ebsnew.boc.cn,*.96225.com,mbs.boc.cn,ebsnew.boc.cn,mp.weixin.qq.com,api.jr.mi.com,*.feng,180.101.212.21,180.101.212.22,map-mobile-opnimg.cdn.bcebos.com,dss0.bdstatic.com,newclient.map.baidu.com
-#百度云
-https:\/\/dss0\.bdstatic\.com\/.+.\/(tam-ogel|cae-legoup-video-targe)\/ url reject
-^https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/ url reject
-^http:\/\/pan\.baidu\.com\/act\/task\/ url reject
-^https:\/\/.+.\/rest\/2\.0\/ url reject
-^https:\/\/wk\.baidu\.com\/smallapp\/api\/rec\/interface\/ url reject
-# 虎牙直播
-^https:\/\/business\.msstatic\.com\/advertiser\/ url reject
-^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
-^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource\/ url reject
-# 交管12123
-^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
-# 高德地图
-^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
-# 中国银行
-^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
-^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
-^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
-# 杭州市民卡
-^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
-^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource url reject
-^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
-^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
-# 微信
+hostname=*.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
+
+
+# >唯品会
+^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ url reject
+
+# >小小影视评论
+^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ url reject
+# >人人视频
+^https:\/\/img\.rr\.tv\/banner\/.+\.jpg url reject
+^https:\/\/api\.rr\.tv\/ad\/ url reject
+^https:\/\/api\.rr\.tv\/.*(getAll|Version) url reject
+
+# 花小猪
+^https:\/\/gift-static\.hongyibo\.com\.cn\/static\/ad_oss\/ url reject
+
+# 滴滴出行
+^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ url reject
+^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ url reject
+# >麻花影视
+^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
+
+# > Gofun
+^https+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
+
+# >> 微信
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject
 ^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$ url reject
 ^http:\/\/wx\.qlogo\.cn\/finderhead\/.+ url reject
-# 小米随星借
-^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? url reject
-# 钉钉
+
+# >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
+
 # >> 威锋
 ^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
-# 百度地图
+
+# >> 小米随星借
+
+^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? url reject
+
+# >> 米家
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/ url reject
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject
+^https:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject
+^https:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject
+^https:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject
+^https:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? url reject
+
+# >> 交管12123
+^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
+
+# >> 虎牙直播
+^https?:\/\/business\.msstatic\.com\/advertiser\/ url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
+
+# >> 酷我音乐
+^http:\/\/.*\/MobileAdServer\/getIosAdInfo\.do\? url reject
+^http:\/\/.*\/AdService\/kaiping\/getcache\? url reject
+^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) url reject
+^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/ url reject
+^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ url reject
+^http:\/\/g\.koowo\.com\/g\.real\?aid url reject
+
+# >> 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) url reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads url reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= url reject
-^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.+\.png url reject
+^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png url reject
+
+# >> 高德地图
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
+
+# >> 中国银行
+^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
+^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
+
+# >> 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource url reject
+^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
+^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
+^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
+
+# >> 淘宝
+https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ url reject
+
+# >> 美团
+^https:\/\/flowplus\.meituan\.net\/v1\/ url reject
+^https:\/\/img\.meituan\.net\/midas\/ url reject
+^https:\/\/p0\.meituan\.net\/travelcube\/ url reject
+^https:\/\/p0\.meituan\.net\/linglong\/.*\.gif$ url reject
+^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ url reject
+^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
+
+# >> 腾讯视频
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.*\.(jpg|png)\/0\?ck=.* url reject
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? url reject
+^http:\/\/.*\/variety\.tc\.qq\.com\/.*\.mp4\? url reject
+^http:\/\/.*\/vlive\.qqvideo\.tc\.qq\.com\/.*\.1\.mp4 url reject
+
+# >>米读
+^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed)\/ url reject
+^https:\/\/apiwz\.midukanshu\.com\/config\/(getWhiteUrl|getAds) url reject
+^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
+^https:\/\/apiwz\.midukanshu\.com\/advert\/ url reject
+^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ url reject
+^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ url reject
+
+# >>萤石云
+^https:\/\/api\.ys7\.com\/api\/ads\/ url reject
+^https:\/\/api\.ys7\.com\/v3\/adService\/ url reject
+^https:\/\/i\.ys7\.com\/api\/ads\/ url reject
+
+# > 京东
+^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject
+^https:\/\/img10\.360buyimg\.com\/mcmktresadmin\/jfs.+.width=520&height=780$ url reject
+
+# >> 瑞幸
+^https:\/\/.+\.luckincoffeecdn\.com\/group1\/M00\/23\/77\/ url reject
