@@ -1,6 +1,5 @@
 hostname=*.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
 
-
 # 唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ url reject
 # 小小影视评论
