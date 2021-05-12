@@ -22,7 +22,7 @@
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
 
 # > Gofun
-^https+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
+^https:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
 
 # >> 微信
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
