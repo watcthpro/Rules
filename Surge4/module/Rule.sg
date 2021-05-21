@@ -2,6 +2,10 @@
 #!desc={12.16修改}
 
 [URL Rewrite]
+# 乐小说阅读器
+^http:\/\/api\.kdmfxs\.com\/rauth\/v3\/one_book\/male - reject
+^http:\/\/api\.kdmfxs\.com\/api\/v1/tag\/ - reject
+
 # >唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
 
