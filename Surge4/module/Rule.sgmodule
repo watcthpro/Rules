@@ -2,6 +2,12 @@
 #!desc={2021.06.21.19:20修改}
 
 [URL Rewrite]
+
+# 滴滴出行-去开屏广告
+^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
+# 滴滴出行-其他
+^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
+
 # 乐小说阅读器
 ^http:\/\/api\.kdmfxs\.com\/rauth\/v3\/one_book\/male - reject
 ^http:\/\/api\.kdmfxs\.com\/api\/v1/tag\/ - reject
@@ -130,4 +136,4 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 
 
 [MITM]
-hostname = %APPEND% *.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
+hostname = %APPEND% *.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com, res.xiaojukeji.com,ct.xiaojukeji.com
