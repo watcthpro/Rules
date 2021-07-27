@@ -1,7 +1,2 @@
-hostname = *.xxjjappss.com,*.gov.cn,m5.amap.com,account.wps.cn
+hostname = m5.amap.com,account.wps.cn
 
-浙里办AD = https:\/\/portal\.zjzwfw\.gov\.cn\/city\/appHome\/selectStartPic, url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
-高德地图 = https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?, url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
-wps = https:\/\/account\.wps\.cn\/api\/users, url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
