@@ -11,22 +11,12 @@
 # 滴滴出行-其他
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
 
-# 乐小说阅读器
-^http:\/\/api\.kdmfxs\.com\/rauth\/v3\/one_book\/male - reject
-^http:\/\/api\.kdmfxs\.com\/api\/v1/tag\/ - reject
 
 # >唯品会
 ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
 
 # >小小影视评论
 ^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
-# >人人视频
-^https:\/\/img\.rr\.tv\/banner\/.+\.jpg - reject
-^https:\/\/api\.rr\.tv\/ad\/ - reject
-^https:\/\/api\.rr\.tv\/.*(getAll|Version) - reject
-
-# 花小猪
-^https:\/\/gift-static\.hongyibo\.com\.cn\/static\/ad_oss\/ - reject
 
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ - reject
@@ -37,10 +27,6 @@
 # > Gofun
 ^https:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
 
-# >> 微信
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) - reject
-^http:\/\/\[::ffff:.*]\/mmhead\/.*\?tp=wxpic$ - reject
-^http:\/\/wx\.qlogo\.cn\/finderhead\/.+ - reject
 
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* - reject
@@ -109,11 +95,6 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 ^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ - reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ - reject
 
-# >> 腾讯视频
-^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.*\.(jpg|png)\/0\?ck=.* - reject
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.*\.1\.mp4\? - reject
-^http:\/\/.*\/variety\.tc\.qq\.com\/.*\.mp4\? - reject
-^http:\/\/.*\/vlive\.qqvideo\.tc\.qq\.com\/.*\.1\.mp4 - reject
 
 # >>米读
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed)\/ - reject
