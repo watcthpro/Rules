@@ -113,4 +113,4 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 
 
 [MITM]
-hostname = %APPEND% *.weixin.qq.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com, res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = %APPEND% cdnweb03.96225.com,smkmp.96225.com,gw.alicdn.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.weixin.qq.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,gw.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com, res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
