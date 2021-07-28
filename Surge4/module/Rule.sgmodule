@@ -99,7 +99,7 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
-https:\/\/api\.midukanshu\.com\/user\/comment\/paragraph_countv2 - reject
+^https:\/\/api\.midukanshu\.com\/user\/comment\/paragraph_countv2 - reject
 # >>萤石云
 ^https:\/\/api\.ys7\.com\/api\/ads\/ - reject
 ^https:\/\/api\.ys7\.com\/v3\/adService\/ - reject
