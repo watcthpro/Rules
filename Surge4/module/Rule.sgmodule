@@ -48,7 +48,7 @@
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve - reject
 
 # >> 虎牙直播
-^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https:\/\/business\.msstatic\.com\/(advertiser|ssp|material) - reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip - reject
 
