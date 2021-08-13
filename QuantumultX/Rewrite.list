@@ -8,7 +8,7 @@ hostname = *.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xi
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ url reject
 ^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ url reject
-\# >> 钉钉
+# >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
 # >> 威锋
 ^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
