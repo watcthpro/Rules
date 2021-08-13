@@ -2,7 +2,9 @@ hostname = *.shuntongtong.com,*.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.
 
 
 # 氧气语音
-^https:\/\/mx\.shuntongtong\.com\/prod\/resources\/app\/ad\/.*\. url reject
+^https:\/\/.*\.shuntongtong\.com\/prod\/resources\/app\/ad\/.*\. url reject
+^https:\/\/.*\.shuntongtong\.com\/.+.\/img_activated\/ url reject
+^https:\/\/.*\.shuntongtong\.com\/.*.\/giftconf\/.*.\.js url reject
 # 滴滴出行-去开屏广告
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
 # 滴滴出行-其他
