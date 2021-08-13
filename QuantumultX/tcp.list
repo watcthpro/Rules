@@ -1,3 +1,1 @@
-# 修正规则
-HOST,api.jr.mi.com,direct
-HOST,sj.uukanshu.com,proxy
+host,adashxgc.ut.taobao.com,reject
