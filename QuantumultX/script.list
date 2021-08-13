@@ -1,4 +1,6 @@
 hostname = *.96225.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com
+[MITM]
+hostname =*.feng.com,*.96225.com
 
 ^https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
@@ -11,3 +13,6 @@ hostname = *.96225.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqin
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
+^http:\/\/static\.dingtalk\.com\/media\/.* url reject
+^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
+^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
