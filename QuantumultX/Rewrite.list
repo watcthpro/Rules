@@ -1,3 +1,4 @@
+hostname = *.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.weixin.qq.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 #>> 滴滴出行-去开屏广告
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mgeturl reject
