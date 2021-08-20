@@ -9,7 +9,7 @@ hostname = *.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hz
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource url reject
-^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject`
+^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
