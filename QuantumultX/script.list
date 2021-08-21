@@ -10,6 +10,6 @@ hostname = ddt.h3c.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqin
 ^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-#H3C点通
+#H3C点点通
 ^https:\/\/ddt\.h3c\.com\/scheme\/scheme\/v1\/config\/listScene url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/ddt\.h3c\.com\/scheme\/commonConfig\/getSplash\/SPLASH_IMAGE_ALL url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
