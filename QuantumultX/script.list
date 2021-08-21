@@ -2,18 +2,11 @@ hostname = *.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hz
 
 
 
-^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad｜getappmsgext) url script-response-body https://raw.githubusercontent.com/iepngs/Script/master/weixin/ad.js
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad｜getappmsgext) url script-response-body https://raw.githubusercontent.com/iepngs/Script/master/weixin/ad.js
 ^https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\? url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-^https:\/\/portal-jcss\.hzpolice\.gov\.cn\/app_api\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource url reject
-^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
-^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
-^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
-^http:\/\/static\.dingtalk\.com\/media\/.* url reject
-^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
-^https:\/\/.*\.feng\.com\/.*\/advertisement.* url reject
