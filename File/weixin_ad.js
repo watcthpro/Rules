@@ -4,5 +4,6 @@
 var obj = JSON.parse($response.body);
 delete obj.advertisement_info;
 delete obj.appid;
-advertisement_num=0;
+delete sessionid;
+advertisement_num=;
 $done({body: JSON.stringify(obj)});
