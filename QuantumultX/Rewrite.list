@@ -1,6 +1,7 @@
 hostname = *.myhuaweicloud.com,*.t3go.cn,*.shuntongtong.com,*.cmbimg.com,*.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
+^https:\/\/passenger\.t3go\.cn.*\/startup url reject
 ^https:\/\/metrics\.t3go\.cn\/monitor-app-api\/api\/common\/uploadDataTracking url reject
 ^https:\/\/t3propublic\.obs\.cn-east-3\.myhuaweicloud\.com\/t3-admin\/files\/t3-admin\/ url reject
 ^https:\/\/passenger\.t3go\.cn.*\/ad\/ url reject
