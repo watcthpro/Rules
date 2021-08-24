@@ -1,7 +1,12 @@
 hostname = *.shuntongtong.com,*.cmbimg.com,*.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+
+# T3出行
+^https:\/\/passenger\.t3go\.cn.*\/ad\/ url reject
+^https:\/\/t3test\.obs\.cn-east-3\.myhuaweicloud\.com\/images\/gif\/.*\.gif url reject
+# 百度跳转APP
+^https?:\/\/.*\.baidu\.com url request-header Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1 request-header Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1
 # 招商银行
 ^https:\/\/.*\.cmbimg\.com\/mbappinitads\/.* url reject
-
 # 氧气语音
 ^https:\/\/.*\.shuntongtong\.com\/*(prod|resources|app|ad|main_tab).* url reject
 ^https:\/\/.*\.shuntongtong\.com\/.+.\/img_activated\/ url reject
