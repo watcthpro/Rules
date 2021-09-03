@@ -60,7 +60,6 @@ hostname = *.myhuaweicloud.com,*.t3go.cn,*.shuntongtong.com,*.cmbimg.com,*.12306
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
 # 杭州市民卡
-^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/1\.0\.0\/getBidResource url reject
 ^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
 ^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
