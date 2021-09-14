@@ -1,4 +1,4 @@
-hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,*.96225.com,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
