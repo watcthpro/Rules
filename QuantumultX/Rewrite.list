@@ -58,8 +58,6 @@ hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,*.96225.com,api
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
 
 # 杭州市民卡
-^https:\/\/smkmp\.96225\.com\/.+.\/ad url reject
-^https:\/\/cdnweb02\.96225\.com\/wep\/Uploads\/userfiles\/ url reject
 ^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
 # 淘宝
 https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ url reject
