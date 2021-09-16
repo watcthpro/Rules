@@ -1,4 +1,4 @@
-hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = *.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
@@ -6,9 +6,6 @@ hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,api.jr.mi.com,*
 ^https:\/\/t3propublic\.obs\.cn-east-3\.myhuaweicloud\.com\/t3-admin\/files\/t3-admin\/ url reject
 ^https:\/\/passenger\.t3go\.cn.*\/ad\/ url reject
 ^https:\/\/t3test\.obs\.cn-east-3\.myhuaweicloud\.com\/images\/gif\/.*\.gif url reject
-
-# 招商银行
-^https:\/\/.*\.cmbimg\.com\/mbappinitads\/.* url reject
 
 # 滴滴出行-去开屏广告
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
@@ -58,7 +55,6 @@ hostname = *.myhuaweicloud.com,*.t3go.cn,*.cmbimg.com,*.12306.cn,api.jr.mi.com,*
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
 
 # 杭州市民卡
-^https:\/\/cdnweb03\.96225\.com\/storage\/center\/icon\/.+.\.gif$ url reject
 # 淘宝
 https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ url reject
 # 美团
