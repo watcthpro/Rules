@@ -2,7 +2,7 @@
 #!desc={2021.09.17}
 
 [MITM]
-hostname = %APPEND% *.t3go.cn,api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
+hostname = %APPEND% api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
 
 
 [URL Rewrite]
