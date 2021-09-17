@@ -7,23 +7,12 @@
 # 滴滴出行-其他
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
 
-
-# >唯品会
-^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/ - reject
-
-# >小小影视评论
-^https:\/\/.*\.xiaoxiao.*\.com\/comment\/ - reject
-
 # 滴滴出行
 ^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ - reject
 ^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ - reject
 
 # >麻花影视
 ^https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=4994 https:\/\/vip\.jiangrenzhiguo\.com\/xxd\.php\?id=0000 header
-
-# > Gofun
-^https:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
-
 
 # >> 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* - reject
@@ -33,7 +22,6 @@
 ^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
 
 # >> 小米随星借
-
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? - reject
 
 # >> 米家
@@ -100,6 +88,7 @@ https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ - reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ - reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ - reject
 ^https:\/\/api\.midukanshu\.com\/user\/comment\/paragraph_countv2 - reject
+
 # >>萤石云
 ^https:\/\/api\.ys7\.com\/api\/ads\/ - reject
 ^https:\/\/api\.ys7\.com\/v3\/adService\/ - reject
