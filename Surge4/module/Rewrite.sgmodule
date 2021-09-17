@@ -2,7 +2,7 @@
 #!desc={2021.09.17}
 
 [MITM]
-hostname = %APPEND% *.t3go.cn,api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn
+hostname = %APPEND% *.t3go.cn,api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup - reject
@@ -44,3 +44,19 @@ hostname = %APPEND% *.t3go.cn,api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*
 
 # 高德地图
 ^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
+
+
+# 酷我音乐
+^http:\/\/.*\/MobileAdServer\/getIosAdInfo\.do\? - reject
+^http:\/\/.*\/AdService\/kaiping\/getcache\? - reject
+^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) - reject
+^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/ - reject
+^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ - reject
+^http:\/\/g\.koowo\.com\/g\.real\?aid - reject
+
+# 百度地图
+^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) - reject
+^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ - reject
+^https:\/\/.+\/client\/phpui2\/\?qt=ads - reject
+^https:\/\/.+\/client\/noticebar\/get\?screen= - reject
+^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png - reject
