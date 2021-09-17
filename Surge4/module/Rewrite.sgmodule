@@ -4,6 +4,8 @@
 [MITM]
 hostname = %APPEND% *.t3go.cn,api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
 
+
+[URL Rewrite]
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup - reject
 ^https:\/\/metrics\.t3go\.cn\/monitor-app-api\/api\/common\/uploadDataTracking - reject
