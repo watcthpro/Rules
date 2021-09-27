@@ -1,4 +1,4 @@
-hostname = *.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
@@ -54,7 +54,13 @@ hostname = *.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.d
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-webapp\/ubas010010 url reject
 
-# 杭州市民卡
+# 微信
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint url reject
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video url reject
+^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report url reject
+^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) url reject
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad.* url reject
+^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject
 # 淘宝
 https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ url reject
 # 美团
