@@ -1,4 +1,4 @@
-hostname = api.ngayet.com,ddt.h3c.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com
+hostname = smkmp.96225.com,api.ngayet.com,ddt.h3c.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com
 
 ^https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
@@ -10,3 +10,5 @@ hostname = api.ngayet.com,ddt.h3c.com,*.gov.cn,*.amap.com,account.wps.cn,*.gzkax
 #H3C点点通
 ^https:\/\/ddt\.h3c\.com\/scheme\/scheme\/v1\/config\/listScene url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 ^https:\/\/ddt\.h3c\.com\/scheme\/commonConfig\/getSplash\/SPLASH_IMAGE_ALL url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+# 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/ url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
