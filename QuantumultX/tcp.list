@@ -4,3 +4,4 @@ host,otheve.beacon.qq.com,reject
 host,btrace.qq.com,reject
 host,video.dispatch.tc.qq.com,reject
 host,sj.uukanshu.com,proxy
+host,pingjs.qq.com,reject
