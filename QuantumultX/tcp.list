@@ -7,3 +7,5 @@ host,sj.uukanshu.com,proxy
 host,pingjs.qq.com,reject
 host,ads.goodreads.com,reject
 host,feedburner.google.com,reject
+host,adashx.m.taobao.com,reject
+HOST-SUFFIX,page.amap.com,reject
