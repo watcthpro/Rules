@@ -5,3 +5,5 @@ host,btrace.qq.com,reject
 host,video.dispatch.tc.qq.com,reject
 host,sj.uukanshu.com,proxy
 host,pingjs.qq.com,reject
+host,ads.goodreads.com,reject
+host,feedburner.google.com,reject
