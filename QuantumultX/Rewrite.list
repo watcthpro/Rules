@@ -1,4 +1,4 @@
-hostname = amdc.m.taobao.com,acs.m.taobao.com,mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taobao.com,mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
