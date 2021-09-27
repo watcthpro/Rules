@@ -94,6 +94,7 @@ hostname = amdc.m.taobao.com,acs.m.taobao.com,mp.weixin.qq.com,szextshort.weixin
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject
 ^https:\/\/img10\.360buyimg\.com\/mcmktresadmin\/jfs.+.width=520&height=780$ url reject
-
+# 杭州市民卡
+^https:\/\/smkmp\.96225\.com\/smkoperate\/ad\/ url reject
 # 腾讯视频
 ^http:\/\/(\d{1,3}\.){3}\d{1,3}/(variety|vlive|vmind)\.qqvideo\.tc\.qq\.com url reject
