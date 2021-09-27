@@ -1,4 +1,4 @@
-hostname = mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = amdc.m.taobao.com,acs.m.taobao.com,mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
@@ -62,7 +62,12 @@ hostname = mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad.* url reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject
 # 淘宝
-https:\/\/gw\.alicdn\.com\/.+(1200x1200).+ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ url reject
 # 美团
 ^https:\/\/flowplus\.meituan\.net\/v1\/ url reject
 ^https:\/\/img\.meituan\.net\/midas\/ url reject
