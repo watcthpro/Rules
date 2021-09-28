@@ -13,4 +13,4 @@ hostname = smkmp.96225.com,api.ngayet.com,ddt.h3c.com,*.gov.cn,*.amap.com,accoun
 # 杭州市民卡
 ^https:\/\/smkmp\.96225\.com\/smkoperate\/bid\/ url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.response.js
 #TikTok去水印
-^https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) url script-response-body https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/tiktok.js
+//^https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) url script-response-body https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/tiktok.js
