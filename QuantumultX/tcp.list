@@ -9,3 +9,4 @@ host,ads.goodreads.com,reject
 host,feedburner.google.com,reject
 host,adashx.m.taobao.com,reject
 HOST-SUFFIX,page.amap.com,reject
+HOST-SUFFIX,qchannel01.cn,reject
