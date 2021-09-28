@@ -7,7 +7,7 @@ hostname = smkmp.96225.com,api.ngayet.com,ddt.h3c.com,*.gov.cn,*.amap.com,accoun
 ^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic reject-dict
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D reject-dict
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic reject-dict
-#H3C点点通
+# H3C点点通
 ^https:\/\/ddt\.h3c\.com\/scheme\/scheme\/v1\/config\/listScene reject-dict
 ^https:\/\/ddt\.h3c\.com\/scheme\/commonConfig\/getSplash\/SPLASH_IMAGE_ALL reject-dict
 # 杭州市民卡
