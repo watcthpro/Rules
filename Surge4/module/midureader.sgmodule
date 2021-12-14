@@ -2,20 +2,20 @@
 
 [Script]
 修改设置 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/userCenterMenus,requires-body=1,max-size=0,script-path=修改设置.js
-删除ad_1.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getLike,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_1.0 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getWelfare,requires-body=1,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.9 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData,requires-body=1,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除热评论墙 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/chapter_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.7 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/read,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.8 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/chapter_biz,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除评论 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/paragraph_countv2,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.6 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/recommend\/chapterEndV2,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.5 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAds,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.4 = type=http-response,pattern=^https:\/\/sdk-ab-config\.aiclk\.com\/v1\/getFlags,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
+删除ad_1.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getLike,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_1.0 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getWelfare,requires-body=1,script-path=obj.data.js
+删除ad_0.9 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData,requires-body=1,script-path=obj.data.js
+删除热评论墙 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/chapter_list,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.7 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/read,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.8 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/chapter_biz,requires-body=1,max-size=0,script-path=obj.data.js
+删除评论 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/paragraph_countv2,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.6 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/recommend\/chapterEndV2,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.5 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAds,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.4 = type=http-response,pattern=^https:\/\/sdk-ab-config\.aiclk\.com\/v1\/getFlags,requires-body=1,max-size=0,script-path=obj.data.js
 getConfig = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
-删除互动消息 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/trace,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
+删除互动消息 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/user\/comment\/trace,requires-body=1,max-size=0,script-path=obj.data.js
 修改主页分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getHome,requires-body=1,max-size=0,script-path=修改主页分类.js
-删除ad_0.3 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.2 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/advert\/getPopup,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-删除ad_0.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAppConfigs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js,script-update-interval=-1
-微信 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/weixin_ad.js,script-update-interval=-1
+删除ad_0.3 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.2 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/advert\/getPopup,requires-body=1,max-size=0,script-path=obj.data.js
+删除ad_0.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAppConfigs,requires-body=1,max-size=0,script-path=obj.data.js
+删除微信_ad = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),requires-body=1,max-size=0,script-path=weixin_ad.js
