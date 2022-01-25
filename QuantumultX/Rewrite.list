@@ -1,4 +1,4 @@
-hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taobao.com,mp.weixin.qq.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
+hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taobao.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.feng.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com,*.midukanshu.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
@@ -86,10 +86,6 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ url reject
 ^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ url reject
 ^https:\/\/api\.midukanshu\.com\/user\/comment\/paragraph_countv2 url reject
-# 萤石云
-^https:\/\/api\.ys7\.com\/api\/ads\/ url reject
-^https:\/\/api\.ys7\.com\/v3\/adService\/ url reject
-^https:\/\/i\.ys7\.com\/api\/ads\/ url reject
 # 京东
 ^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
