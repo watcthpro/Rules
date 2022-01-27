@@ -1,6 +1,0 @@
-(?<=eme\/v)2(?=\/f\w{2}d\/\?.*) url 302 1
-(?<=&mcc_mnc=)4 url 307 2
-(^h.+v5\/)(.+) url 302 $1
-(?<=_region=)CN(?=&) url 307 TW
-
-hostname = *.tik-tokapi.com,*.tiktokv.com,*.tiktokcdn.com
