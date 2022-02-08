@@ -1,5 +1,6 @@
 host,api.jr.mi.com,DIRECT
-host,statwup.huya.coim,REJECT
+
+HOST-SUFFIX,data.mob.com,REJECT
 host,adashxgc.ut.taobao.com,REJECT
 host,ad.12306.cn,REJECT
 host,otheve.beacon.qq.com,REJECT
