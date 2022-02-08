@@ -14,7 +14,7 @@ HOST-SUFFIX,page.amap.com,REJECT
 HOST-SUFFIX,qchannel01.cn,REJECT
 HOST-SUFFIX,log.aliyuncs.com,REJECT
 host,hm.baidu.com,REJECT
-moxiaoqihuoguo.com,REJECT
+HOST-SUFFIX,moxiaoqihuoguo.com,REJECT
 host,qgeth.wduwvjd.cn,REJECT
 host,a0cs.ai-usb.org,REJECT
 host,eo.chaungpin.top,REJECT
