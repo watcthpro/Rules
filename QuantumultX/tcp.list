@@ -1,11 +1,10 @@
 host,api.jr.mi.com,DIRECT
-
+host,statwup.huya.coim,REJECT
 host,adashxgc.ut.taobao.com,REJECT
 host,ad.12306.cn,REJECT
 host,otheve.beacon.qq.com,REJECT
 host,btrace.qq.com,REJECT
 host,video.dispatch.tc.qq.com,REJECT
-host,sj.uukanshu.com,proxy
 host,pingjs.qq.com,REJECT
 host,ads.goodreads.com,REJECT
 host,feedburner.google.com,REJECT
