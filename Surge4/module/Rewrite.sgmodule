@@ -47,7 +47,6 @@ hostname = %APPEND% api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukansh
 # 高德地图
 ^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
 
-
 # 酷我音乐
 ^http:\/\/.*\/MobileAdServer\/getIosAdInfo\.do\? - reject
 ^http:\/\/.*\/AdService\/kaiping\/getcache\? - reject
@@ -62,3 +61,6 @@ hostname = %APPEND% api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukansh
 ^https:\/\/.+\/client\/phpui2\/\?qt=ads - reject
 ^https:\/\/.+\/client\/noticebar\/get\?screen= - reject
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png - reject
+
+# 随手记(2022.01.24)
+^https?:\/\/tg\.feidee\.com\/online_ad\/ - reject
