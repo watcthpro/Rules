@@ -18,6 +18,8 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 
 随手记 = type=http-response,pattern=^https?:\/\/((user)?api|community)\.feidee\.(net|com)\/(v\d\/(pay/vip|profile/basic_info|app_themes/types)|transfer\/gapi\/accurat\/v\d\/tasks),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js,script-update-interval=0
 
+随手记.0 = type=http-response,pattern=^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js,script-update-interval=0
+
 七猫小说 = type=http-response,pattern=^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js,script-update-interval=0
 
 [MITM]
