@@ -3,6 +3,9 @@
 
 [URL Rewrite]
 ctier=[A-Z] ctier=A 302
+^https?:\/\/[\s\S]+\.doubleclick\.net.* - reject
+^https?:\/\/[\w-]+\.googlevideo\.com\/[\w-].*(ctier=).* - reject
+^https?:\/\/[\w-]+\.youtube.com\..*ytp-ad-action-interstitial - reject
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
 ^https?:\/\/.+\.googlevideo\.com\/.+ctier - reject
