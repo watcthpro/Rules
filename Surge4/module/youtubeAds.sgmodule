@@ -4,7 +4,16 @@
 [URL Rewrite]
 ctier=[A-Z] ctier=A 302
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
-
+^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
+^https?:\/\/.+\.googlevideo\.com\/.+ctier - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
+^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
+^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
+^https?:\/\/.+\.youtube\.com\/ptracking - reject
 
 
 [MITM]
