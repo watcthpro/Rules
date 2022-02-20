@@ -1,0 +1,5 @@
+#!name=youtubeAds
+#!desc={youtubeAds}
+
+[MITM]
+hostname = %APPEND% redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com, *.doubleclick.net, *.googleusercontent.com, *.googlesyndication.com, *.appspot.com
