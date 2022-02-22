@@ -40,28 +40,6 @@ DOMAIN,cdn-cn.vungle.cn
 DOMAIN-SUFFIX,moatads.com
 DOMAIN-SUFFIX,surroundtm.com
 DOMAIN-SUFFIX,hxtjedu.com
-DOMAIN-SUFFIX,log.aliyuncs.com
-# 思故影视
-DOMAIN,einsuran.com.cn
-DOMAIN,yishoutao88.cn
-DOMAIN,js.yalongrope.cn
-DOMAIN,js.tdhjz.cn
-DOMAIN,js.fanglinwang.cn
-DOMAIN,api.xtyizilaijx.cn
-DOMAIN,dg.sxybjjz.cn
-DOMAIN,api.jsfc8.cn
-DOMAIN,api.huitaohuijia.cn
-DOMAIN,api.csxsyp.cn
-DOMAIN,api.yn0579.cn
-DOMAIN,api.sd024.cn
-DOMAIN,api.5eln.cn
-DOMAIN,api.gzxiongwa.cn
-DOMAIN,image.sxybjjz.cn
-DOMAIN,dg.jianglongjie.cn
-DOMAIN,api.sjmwkj.cn
-DOMAIN-SUFFIX,hbatna.cn
-DOMAIN-SUFFIX,songshugame.cn
-DOMAIN,www.68710266.com
 DOMAIN,hm.baidu.com
 # 小米快贷
 DOMAIN,tr.iadsdk.apple.com
