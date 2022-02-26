@@ -45,8 +45,6 @@ DOMAIN,hm.baidu.com
 DOMAIN,tr.iadsdk.apple.com
 # 虎牙直播
 DOMAIN,ylog.huya.com
-# 威锋论坛
-DOMAIN-SUFFIX,snssdk.com
 # 麻花影视
 DOMAIN,z9.cnzz.com
 DOMAIN,vip.jiangrenzhiguo.com
