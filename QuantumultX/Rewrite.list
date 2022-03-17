@@ -86,7 +86,7 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/*.*\.midureader\.com\/advert\/ url reject
 ^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike url reject
 ^https:\/\/*.*\.midureader\.com\/advert\/getPopup$ url reject
-^https:\/\/*.*\.midureader\.com\/user\/comment\/(label|block_list) url reject
+^https:\/\/*.*\.midureader\.com\/user\/comment\/(label|block_list|paragraph_countv2) url reject
 # 京东
 ^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
