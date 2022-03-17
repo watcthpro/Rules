@@ -77,7 +77,6 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ url reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
 # 米读
-^https:\/\/api\.midukanshu\.com\/baseconfig\/banner\/getFixPositionConfigData url reject
 ^https:\/\/api\.midukanshu\.com\/fiction\/speed\/getReadsLimit url reject
 ^https:\/\/api\.midukanshu\.com\/config\/center url reject
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed|scene)\/ url reject
@@ -98,4 +97,3 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 url reject
 ^https?:\/\/vv\.video\.qq\.com\/(getvmind|checktime|getvinfo) url reject
 ^http:\/\/pgdt\.gtimg\.cn\/(gdt|141) url reject
-fiction
