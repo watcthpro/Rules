@@ -78,14 +78,14 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
 # 米读极速版
 ^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig url reject
-^https:\/\/api\.midukanshu\.com\/fiction\/speed\/getReadsLimit url reject
-^https:\/\/api\.midukanshu\.com\/config\/center url reject
+^https:\/\/apiwz\.midukanshu\.com\/fiction\/speed\/getReadsLimit url reject
+^https:\/\/apiwz\.midukanshu\.com\/config\/center url reject
 ^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed|scene)\/ url reject
 ^https:\/\/apiwz\.midukanshu\.com\/config\/(getAppConfigs|getWhiteUrl|getAds) url reject
 ^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
 ^https:\/\/apiwz\.midukanshu\.com\/advert\/ url reject
-^https:\/\/api\.midukanshu\.com\/advert\/getPopup$ url reject
-^https:\/\/api\.midukanshu\.com\/user\/comment\/paragraph_countv2 url reject
+^https:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$ url reject
+^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/block_list\/ url reject
 # 京东
 ^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
