@@ -1,5 +1,5 @@
 host,api.jr.mi.com,DIRECT
-
+HOST,tnc3-aliec2.snssdk.com,REJECT
 HOST-SUFFIX,umeng.com,REJECT
 HOST-SUFFIX,data.mob.com,REJECT
 host,adashxgc.ut.taobao.com,REJECT
