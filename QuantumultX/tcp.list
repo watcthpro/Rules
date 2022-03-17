@@ -1,4 +1,7 @@
 host,api.jr.mi.com,DIRECT
+HOST,ios.bugly.qq.com,REJECT
+HOST,qzs.gdtimg.com,REJECT
+HOST,qzs.qq.com,REJECT
 HOST,tnc3-aliec2.snssdk.com,REJECT
 HOST-SUFFIX,umeng.com,REJECT
 HOST-SUFFIX,data.mob.com,REJECT
