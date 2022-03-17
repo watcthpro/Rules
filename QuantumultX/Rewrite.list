@@ -3,7 +3,7 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
 ^https:\/\/metrics\.t3go\.cn\/monitor-app-api\/api\/common\/uploadDataTracking url reject
-^https:\/\/t3propublic\.obs\.cn-east-3\.myhuaweicloud\.com\/t3-admin\/files\/t3-admin\/ url reject
+^https:\/\/t3propublic\.obs\.cn-east-3\.myhuaweicloud\.com\/t3-admin\/files\/t3-admin url reject
 ^https:\/\/passenger\.t3go\.cn.*\/ad\/ url reject
 ^https:\/\/t3test\.obs\.cn-east-3\.myhuaweicloud\.com\/images\/gif\/.*\.gif url reject
 
@@ -64,11 +64,11 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject
 # 淘宝
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ url reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources url reject
 # 美团
 ^https:\/\/flowplus\.meituan\.net\/v1\/ url reject
 ^https:\/\/img\.meituan\.net\/midas\/ url reject
@@ -77,15 +77,15 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ url reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
 # 米读极速版
-^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig url reject
-^https:\/\/apiwz\.midukanshu\.com\/fiction\/speed\/getReadsLimit url reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/center url reject
-^https:\/\/apiwz\.midukanshu\.com\/fiction\/(recommend|speed|scene)\/ url reject
-^https:\/\/apiwz\.midukanshu\.com\/config\/(getAppConfigs|getWhiteUrl|getAds) url reject
-^https:\/\/apiwz\.midukanshu\.com\/popup\/readerFloat url reject
-^https:\/\/apiwz\.midukanshu\.com\/advert\/ url reject
-^https:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$ url reject
-^https:\/\/apiwz\.midukanshu\.com\/user\/comment\/block_list\/ url reject
+^https:\/\/*.*\.midureader\.com\/wz\/user\/readConfig url reject
+^https:\/\/*.*\.midureader\.com\/fiction\/speed\/getReadsLimit url reject
+^https:\/\/*.*\.midureader\.com\/config\/center url reject
+^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|speed|scene) url reject
+^https:\/\/*.*\.midureader\.com\/config\/(getAppConfigs|getWhiteUrl|getAds) url reject
+^https:\/\/*.*\.midureader\.com\/popup\/readerFloat url reject
+^https:\/\/*.*\.midureader\.com\/advert\/ url reject
+^https:\/\/*.*\.midureader\.com\/advert\/getPopup$ url reject
+^https:\/\/*.*\.midureader\.com\/user\/comment\/(label|block_list) url reject
 # 京东
 ^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
