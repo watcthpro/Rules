@@ -18,4 +18,3 @@ getConfig = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config
 删除ad_0.3 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig,requires-body=1,max-size=0,script-path=obj.data.js
 删除ad_0.2 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/advert\/getPopup,requires-body=1,max-size=0,script-path=obj.data.js
 删除ad_0.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAppConfigs,requires-body=1,max-size=0,script-path=obj.data.js
-删除微信_ad = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),requires-body=1,max-size=0,script-path=weixin_ad.js
