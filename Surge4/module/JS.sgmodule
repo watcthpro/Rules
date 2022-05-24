@@ -2,7 +2,7 @@
 #!desc={自用脚本}
 
 [Script]
- 警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.hzpolice\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.hzpolice\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
 浙里办ad1 = type=http-response,pattern=https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
@@ -16,11 +16,5 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 
 小小影视 = type=http-response,pattern=https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
 
-随手记 = type=http-response,pattern=^https?:\/\/((user)?api|community)\.feidee\.(net|com)\/(v\d\/(pay/vip|profile/basic_info|app_themes/types)|transfer\/gapi\/accurat\/v\d\/tasks),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js,script-update-interval=0
-
-随手记.0 = type=http-response,pattern=^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js,script-update-interval=0
-
-七猫小说 = type=http-response,pattern=^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js,script-update-interval=0
-
 [MITM]
-hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,api.hongyibo.com.cn,ss.lcjlnjyy.com,*.xxjjappss.com,*.hnhx360.com,*.5iqzj.com,*.wtzw.com,api.feidee.net,userapi.feidee.net,tg.feidee.com,community.feidee.com
+hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,vip1.kuwo.cn,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,api.hongyibo.com.cn,ss.lcjlnjyy.com,*.xxjjappss.com,*.hnhx360.com,*.5iqzj.com
