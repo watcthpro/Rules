@@ -1,5 +1,4 @@
-HOST,business.msstatic.com
-#HOST,livewebbs2.msstatic.com
-HOST,tx-live-cover.msstatic.com
+HOST,business.msstatic.com,REJECT
+HOST,tx-live-cover.msstatic.com,REJECT
 # 高德导航启动页广告
-HOST,unidesk.alicdn.com
+HOST,unidesk.alicdn.com,REJECT
