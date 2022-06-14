@@ -7,13 +7,6 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/passenger\.t3go\.cn.*\/ad\/ url reject
 ^https:\/\/t3test\.obs\.cn-east-3\.myhuaweicloud\.com\/images\/gif\/.*\.gif url reject
 
-# 滴滴出行-去开屏广告
-^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
-# 滴滴出行-其他
-^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds url reject
-# 滴滴出行
-^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/ url reject
-^https:\/\/.+.\.didistatic\.com\/static\/ad_oss\/ url reject
 # 钉钉
 ^http:\/\/static\.dingtalk\.com\/media\/.* url reject
 # 威锋
@@ -49,7 +42,6 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png url reject
 # 高德地图
 ^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
-^https:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/.*\.png url reject
 # 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
