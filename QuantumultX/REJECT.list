@@ -1,4 +1,0 @@
-host,business.msstatic.com,REJECT
-host,tx-live-cover.msstatic.com,REJECT
-# 高德导航启动页广告
-host,unidesk.alicdn.com,REJECT
