@@ -62,6 +62,8 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources url reject
 # 美团
+# > 13 美团外卖开屏广告@ddgksf2013
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url reject
 ^https:\/\/flowplus\.meituan\.net\/v1\/ url reject
 ^https:\/\/img\.meituan\.net\/midas\/ url reject
 ^https:\/\/p0\.meituan\.net\/travelcube\/ url reject
