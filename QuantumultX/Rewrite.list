@@ -27,13 +27,7 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/business\.msstatic\.com\/(advertiser|ssp|material) url reject
 #^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
-#  酷我音乐
-^http:\/\/.*\/MobileAdServer\/getIosAdInfo\.do\? url reject
-^http:\/\/.*\/AdService\/kaiping\/getcache\? url reject
-^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/(getIOSIsHideAd|AudioAd) url reject
-^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/ url reject
-^http:\/\/mobilead\.kuwo\.cn\/MobileAdServer\/ url reject
-^http:\/\/g\.koowo\.com\/g\.real\?aid url reject
+
 # 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) url reject
 ^https:\/\/map-mobile-opnimg\.cdn\.bcebos\.com\/.+\.gif$ url reject
