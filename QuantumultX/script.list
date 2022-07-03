@@ -1,4 +1,4 @@
-hostname = *.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com,*.hnhx360.com,*.myxxdq.com,mp.weixin.qq.com
+hostname = vip1.kuwo.cn,*.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com,*.hnhx360.com,*.myxxdq.com,mp.weixin.qq.com
 
 # 小小影视
 ^https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
@@ -9,8 +9,8 @@ hostname = *.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.c
 # 微信去除公众号文章底部广告
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 # 高德导航
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject-dict
-^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic url reject-dict
-^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url reject-dict
-^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url reject-dict
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject
+^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic url reject
+^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url reject
+^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url reject
 
