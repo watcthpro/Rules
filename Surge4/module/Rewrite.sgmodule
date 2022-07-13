@@ -2,7 +2,7 @@
 #!desc={2021.09.17}
 
 [MITM]
-hostname = %APPEND% api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
+hostname = %APPEND% api.jr.mi.com,*.gov.cn,*.msstatic.com,*.midukanshu.com,mbs.boc.cn,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com
 
 
 [URL Rewrite]
@@ -12,10 +12,6 @@ hostname = %APPEND% api.jr.mi.com,*.feng.com,*.gov.cn,*.msstatic.com,*.midukansh
 ^https:\/\/t3propublic\.obs\.cn-east-3\.myhuaweicloud\.com\/t3-admin\/files\/t3-admin\/ - reject
 ^https:\/\/passenger\.t3go\.cn.*\/ad\/ - reject
 ^https:\/\/t3test\.obs\.cn-east-3\.myhuaweicloud\.com\/images\/gif\/.*\.gif - reject
-
-# 威锋
-^https:\/\/api\.feng\.com[\s\S]*?Claunch_screen - reject
-^https:\/\/.*\.feng\.com\/.*\/advertisement.* - reject
 
 # 小米随星借
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/splashScreen\? - reject
