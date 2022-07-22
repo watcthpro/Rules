@@ -1,6 +1,15 @@
-#!name=midureader
+#!name=优酷
+#!desc=视频去片头广告
+#!system=ios
 
+[General]
+force-http-engine-hosts = %APPEND% *.midureader.com
 [Script]
+
+
+
+
+
 修改设置 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/userCenterMenus,requires-body=1,max-size=0,script-path=修改设置.js
 删除ad_1.1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getLike,requires-body=1,max-size=0,script-path=obj.data.js
 删除ad_1.0 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getWelfare,requires-body=1,script-path=obj.data.js
