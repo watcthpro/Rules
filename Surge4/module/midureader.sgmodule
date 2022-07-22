@@ -21,5 +21,6 @@ URL-REGEX,^https:\/\/apiwz\.midureader\.com\/baseconfig\/banner\/,REJECT
 删除广告2 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAds$,requires-body=1,max-size=0,script-path=obj.data.js
 删除广告3 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/readConfig$,requires-body=1,max-size=0,script-path=obj.data.js
 删除广告4 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/recommend\/chapterEndV2$,requires-body=1,max-size=0,script-path=obj.data.js
+删除广告5 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/wz\/user\/read$,requires-body=1,max-size=0,script-path=obj.data.js
 删除最近阅读 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/speed\/getReadsLimit$,requires-body=1,max-size=0,script-path=obj.data.js
 修改主页分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getHome,requires-body=1,max-size=0,script-path=修改主页分类.js
