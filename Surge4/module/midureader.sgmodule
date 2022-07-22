@@ -16,5 +16,6 @@ URL-REGEX,^https:\/\/apiwz\.midureader\.com\/baseconfig\/banner\/,REJECT
 
 [Script]
 修改主页下方分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
-经典好书 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getLike$，requires-body=1,max-size=0,script-path=obj.data.js
+删除广告1 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getAppConfigs$,requires-body=1,max-size=0,script-path=obj.data.js
+经典好书 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getLike$,requires-body=1,max-size=0,script-path=obj.data.js
 修改主页分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getHome,requires-body=1,max-size=0,script-path=修改主页分类.js
