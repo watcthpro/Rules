@@ -2,14 +2,16 @@
 #!desc=米读极速版去广告
 #!system=ios
 
-[General]
-force-http-engine-hosts = %APPEND% *.midureader.com
+[MITM]
+hostname = %APPEND% apiwz.midureader.com
+
 [Rule]
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/advert\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/activity\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/user\/comment\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/user\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/baseconfig\/banner\/,REJECT
+
 [Script]
 修改主页分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/fiction\/scene\/getHome,requires-body=1,max-size=0,script-path=修改主页分类.js
 修改主页下方分类 = type=http-response,pattern=^https:\/\/apiwz\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
