@@ -6,6 +6,8 @@
 hostname = %APPEND% apiwz.midureader.com
 
 [Rule]
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/advert\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/activity\/,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/user\/comment\/,REJECT
