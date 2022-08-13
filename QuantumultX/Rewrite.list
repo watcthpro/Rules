@@ -24,8 +24,6 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 # 交管12306
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
 # 虎牙直播
-^https:\/\/business\.msstatic\.com\/(advertiser|ssp|material) url reject
-#^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject
 ^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 
 # 百度地图
