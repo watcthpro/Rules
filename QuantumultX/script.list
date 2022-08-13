@@ -13,4 +13,5 @@ hostname = vip1.kuwo.cn,*.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com
 ^https:\/\/.*\.gov\.cn\/app_api\/appHome\/selectStartPic url reject
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url reject
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic url reject
-
+# 警察叔叔
+^https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/selectPopupPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
