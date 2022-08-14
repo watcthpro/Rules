@@ -1,4 +1,4 @@
-hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taobao.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com
+hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taobao.com,szextshort.weixin.qq.com,*.myhuaweicloud.com,*.t3go.cn,*.12306.cn,api.jr.mi.com,*.didistatic.com,*.xiaojukeji.com,*.msstatic.com,mbs.boc.cn,*.meituan.net,*.alicdn.com,*.luckincoffeecdn.com,dss0.bdstatic.com,map-mobile-opnimg.cdn.bcebos.com,res.xiaojukeji.com,ct.xiaojukeji.com
 
 # T3出行
 ^https:\/\/passenger\.t3go\.cn.*\/startup url reject
@@ -21,8 +21,9 @@ hostname = video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m.taobao.com,acs.m.taob
 ^https:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? url reject
 # 交管12306
 ^https:\/\/gab\.122\.gov\.cn\/[\s\S]*?\/adve url reject
+
 # 虎牙直播
-^http:\/\/.*.\/pp-cdnfile1pcdn\.msstatic\.com\/cdnfile\/appad\/.*.\.zip url reject
+^https:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/.+.zip url reject
 
 # 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+\/(tam-ogel|cae-legoup-video-target)\/.+\.(mp4|jpg) url reject
