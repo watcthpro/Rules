@@ -1,4 +1,4 @@
-hostname = vip1.kuwo.cn,*.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com,*.hnhx360.com,*.myxxdq.com,mp.weixin.qq.com,portal-jcss.police.hangzhou.gov.cn
+hostname = vip1.kuwo.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com,*.hnhx360.com,*.myxxdq.com,mp.weixin.qq.com,portal-jcss.police.hangzhou.gov.cn
 
 # 小小影视
 ^https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
