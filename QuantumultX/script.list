@@ -5,8 +5,6 @@ hostname = *.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,
 # WPS
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 微信去除公众号文章底部广告
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-# 高德导航
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject 
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js 
 # 警察叔叔
 ^https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/selectPopupPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
