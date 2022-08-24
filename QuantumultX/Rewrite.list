@@ -33,6 +33,7 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 ^http:\/\/lbsnavi\.cdn\.bcebos\.com\/base\/online\/.*\.png url reject
 # 高德地图
 ^http:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject
 # 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* url reject
 ^https:\/\/ebsnew\.boc\.cn\/BII\/_bfwajax\.do url reject
