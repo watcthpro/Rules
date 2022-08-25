@@ -64,8 +64,9 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 # 米读
 ^https:\/\/*.*\.midureader\.com\/advert\/ url reject-dict
 ^https:\/\/*.*\.midureader\.com\/wz\/user\/ url reject-dict
+^https:\/\/*.*\.midureader\.com\/config\/getAds url reject-dict
 ^https:\/\/*.*\.midureader\.com\/user\/comment\/ url reject-dict
-^ttps:\/\/api\.midureader\.com\/baseconfig\/banner\/ url reject-dict
+^https:\/\/*.*\.midureader\.com\/baseconfig\/banner\/ url reject-dict
 ^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike\/ url reject-dict
 ^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
 
