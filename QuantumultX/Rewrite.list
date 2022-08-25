@@ -62,7 +62,7 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
 # 米读
 ^https:\/\/*.*\.midureader\.com\/wz\/user\/ url reject-dict
-^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader|scene) url reject-dict
+^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
 ^https:\/\/*.*\.midureader\.com\/advert\/ url reject-dict
 ^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike url reject-dict
 ^https:\/\/*.*\.midureader\.com\/user\/comment\/ url reject-dict
