@@ -7,6 +7,6 @@ hostname = mapi.zjzwfw.gov.cn,*.amap.com,account.wps.cn,*.gzkaxing.com,*.daqindo
 # 微信去除公众号文章底部广告
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js 
 # 警察叔叔
-^https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/selectPopupPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
+^https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/selectStartPic url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 # 浙里办
 ^https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D url script-response-body https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
