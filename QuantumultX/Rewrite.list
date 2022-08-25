@@ -60,12 +60,15 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 ^https:\/\/p0\.meituan\.net\/linglong\/.*\.gif$ url reject
 ^https:\/\/p0\.meituan\.net\/ioswhale\/.+(946818)\.png\.webp$ url reject
 ^https:\/\/p0\.meituan\.net\/linglong\/.+(8162018)\.png\.webp$ url reject
+
 # 米读
-^https:\/\/*.*\.midureader\.com\/wz\/user\/ url reject-dict
-^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
 ^https:\/\/*.*\.midureader\.com\/advert\/ url reject-dict
-^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike url reject-dict
+^https:\/\/*.*\.midureader\.com\/wz\/user\/ url reject-dict
 ^https:\/\/*.*\.midureader\.com\/user\/comment\/ url reject-dict
+^ttps:\/\/api\.midureader\.com\/baseconfig\/banner\/ url reject-dict
+^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike\/ url reject-dict
+^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
+
 # 京东
 ^https:\/\/b?dsp-x\.jd\.com\/adx\/ url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
