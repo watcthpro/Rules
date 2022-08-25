@@ -39,10 +39,10 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 
 # 微信
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint url reject-dict
-^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video url url reject-dict
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video url reject-dict
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report url reject-dict
 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) url reject-dict
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad.*  url reject-dict
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad.* url reject-dict
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-dict
 # 淘宝
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject
