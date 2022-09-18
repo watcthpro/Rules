@@ -17,4 +17,4 @@ wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,require
 微信 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),requires-body=1,max-size=0,script-path=weixin_ad.js
 
 [MITM]
-hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,api.hongyibo.com.cn,ss.lcjlnjyy.com,*.xxjjappss.com,*.hnhx360.com,*.5iqzj.com
+hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,api.hongyibo.com.cn,ss.lcjlnjyy.com,*.xxjjappss.com,*.hnhx360.com,*.5iqzj.com,*.judeleshiye.com
