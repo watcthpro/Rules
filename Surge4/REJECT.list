@@ -1,4 +1,6 @@
 # 广告屏蔽
+DOMAIN,ugd.gtimg.com
+DOMAIN-SUFFIX,jsebmcv.cn
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,aiclk.com
@@ -54,7 +56,3 @@ DOMAIN,wa.gtimg.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,dp3.qq.com
 DOMAIN,news.l.qq.com
-# m.ddxs.cc
-DOMAIN-SUFFIX,beibhw.cn
-DOMAIN-SUFFIX,cmavfl.cn
-DOMAIN-SUFFIX,ooykew.cn
