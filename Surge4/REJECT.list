@@ -50,9 +50,4 @@ DOMAIN,tr.iadsdk.apple.com
 # 12306
 DOMAIN,ad.12306.cn
 # 腾讯视频
-DOMAIN,mcgi.v.qq.com
-DOMAIN,yoo.gtimg.com
-DOMAIN,wa.gtimg.com
 DOMAIN,pgdt.gtimg.cn
-DOMAIN,dp3.qq.com
-DOMAIN,news.l.qq.com
