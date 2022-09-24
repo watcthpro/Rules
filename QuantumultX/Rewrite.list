@@ -70,3 +70,6 @@ hostname = cdnfile1.msstatic.com,video.dispatch.tc.qq.com,vv.video.qq.com,amdc.m
 ^https:\/\/*.*\.midureader\.com\/fiction\/speed\/reads url reject-dict
 ^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike url reject-dict
 ^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
+# 京东
+^https:\/\/.*.\/client\.action\?functionId=start url reject-dict
+
