@@ -1,4 +1,8 @@
-hostname = api.m.jd.com
+hostname = api.m.jd.com,*.t3go.cn
 
 # 京东
 ^https:\/\/.*.\/client\.action\?functionId=start url reject-dict
+# T3出行
+^https:\/\/passenger\.t3go\.cn.*\/startup url reject-dict
+# 钉钉
+^http:\/\/static\.dingtalk\.com\/media\/.* url reject-dict
