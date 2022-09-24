@@ -1,4 +1,5 @@
 # 广告屏蔽
+DOMAIN,unidesk.alicdn.com
 DOMAIN,ugd.gtimg.com
 DOMAIN-SUFFIX,jsebmcv.cn
 DOMAIN-SUFFIX,pglstatp-toutiao.com
@@ -49,6 +50,3 @@ DOMAIN,hm.baidu.com
 DOMAIN,tr.iadsdk.apple.com
 # 12306
 DOMAIN,ad.12306.cn
-# 腾讯视频
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,vipcdn.video.qq.com
