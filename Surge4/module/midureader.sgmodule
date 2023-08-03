@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% apiwz.midureader.com
+hostname = %APPEND% *.midureader.com
 
 [URL Rewrite]
 ^https:\/\/*.*\.midureader\.com\/advert\/ - reject
