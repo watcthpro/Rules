@@ -1,18 +1,18 @@
-#!name=米读极速版
-#!desc=米读极速版去广告
+#!name=米读小说
+#!desc=米读去广告
 #!system=ios
 
 [MITM]
 hostname = %APPEND% *.midureader.com
 
 [URL Rewrite]
-^https:\/\/*.*\.midureader\.com\/advert\/ - reject
-^https:\/\/*.*\.midureader\.com\/config\/getAds - reject
-^https:\/\/*.*\.midureader\.com\/user\/comment\/ - reject
-^https:\/\/.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
-^https:\/\/api\.midureader\.com\/fiction\/speed\/getReadsLimit - reject
-^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike - reject
-^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) - reject
+https:\/\/*.*\.midureader\.com\/advert\/ - reject
+https:\/\/*.*\.midureader\.com\/config\/getAds - reject
+https:\/\/*.*\.midureader\.com\/user\/comment\/ - reject
+https:\/\/.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
+https:\/\/api\.midureader\.com\/fiction\/speed\/getReadsLimit - reject
+https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike - reject
+https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) - reject
 
 [Script]
 
