@@ -2,10 +2,12 @@
 #!desc={自用脚本}
 
 [Script]
+WPS 解锁超级会员1.0 Pro = type=http-response,pattern=https:\/\/(account|drive|vas|userinfo.docer)\.wps\.cn\/(.*api\/(v3\/(mine\/vips|spaces)|users\/\d+\/overview|v1\/list_purchase_info)|user\/v1\/vip_dl_times),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js
+WPS 解锁超级会员1.1 Pro = type=http-response,pattern=https:\/\/(mobile|client|vas|download)(\.docer)?\.wps.cn\/(android\/mb\/buy_info|api\/v1\/mobile\/mb\/detail|query\/api\/v1\/list_privilege_info|download\/adapter\/v1\/mb),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPowerCrack.js
 12306 = type=http-response,pattern=https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js
 警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/(selectPopupPic|selectStartPic),requires-body=1,max-size=0,script-path=obj.data.js
 浙里办 = type=http-response,pattern=https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=obj.data.js
 网心云开屏广告 = type=http-response,pattern=https:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf,requires-body=1,max-size=0,script-path=obj.data.js
 酷我音乐 = type=http-response,pattern=https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=kw.js
 [MITM]
-hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me,portal.zjzwfw.gov.cn,portal-jcss.police.hangzhou.gov.cn,account.wps.cn,ad.12306.cn
+hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me,portal.zjzwfw.gov.cn,portal-jcss.police.hangzhou.gov.cn,*.wps.cn,ad.12306.cn
