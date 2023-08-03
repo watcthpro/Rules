@@ -6,18 +6,18 @@
 hostname = %APPEND% *.midureader.com
 
 [URL Rewrite]
-https:\/\/*.*\.midureader\.com\/advert\/ - reject
-https:\/\/*.*\.midureader\.com\/config\/getAds - reject
-https:\/\/*.*\.midureader\.com\/user\/comment\/ - reject
-https:\/\/*.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
-https:\/\/*.*\.midureader\.com\/fiction\/speed\/getReadsLimit - reject
-https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike - reject
-https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) - reject
+https:\/\/.*\.midureader\.com\/advert\/ - reject
+https:\/\/.*\.midureader\.com\/config\/getAds - reject
+https:\/\/.*\.midureader\.com\/user\/comment\/ - reject
+https:\/\/.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
+https:\/\/.*\.midureader\.com\/fiction\/speed\/getReadsLimit - reject
+https:\/\/.*\.midureader\.com\/fiction\/scene\/getLike - reject
+https:\/\/.*\.midureader\.com\/fiction\/(recommend|reader) - reject
 
 [Script]
 
-getConfig = type=http-response,pattern=https:\/\/*.*\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
-米读会员 = type=http-response,pattern=^https:\/\/*.*\.midureader\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=VIP.js
+getConfig = type=http-response,pattern=https:\/\/.*\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
+米读会员 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=VIP.js
 删除广告1 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/config\/getAppConfigs$,requires-body=1,max-size=0,script-path=obj.data.js
 经典好书 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/fiction\/scene\/getLike$,requires-body=1,max-size=0,script-path=obj.data.js
 删除广告2 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/config\/getAds$,requires-body=1,max-size=0,script-path=obj.data.js
