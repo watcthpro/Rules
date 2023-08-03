@@ -1,0 +1,7 @@
+#!name=高德导航
+#!desc={去AD}
+
+[Script]
+高德地图_底部tab栏角标 = type=http-response,pattern=https?:\/\/.*\.amap\.com\/ws\/message\/notice\/list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
+[MITM]
+hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me
