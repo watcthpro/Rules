@@ -6,6 +6,16 @@
 hostname = %APPEND% apiwz.midureader.com
 
 [Rule]
+# 米读
+^https:\/\/*.*\.midureader\.com\/advert\/ url reject-dict
+^https:\/\/*.*\.midureader\.com\/config\/getAds url reject-dict
+^https:\/\/*.*\.midureader\.com\/user\/comment\/ url reject-dict
+^https:\/\/.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData url reject-dict
+^https:\/\/api\.midureader\.com\/fiction\/speed\/getReadsLimit url reject-dict
+
+^https:\/\/*.*\.midureader\.com\/fiction\/scene\/getLike url reject-dict
+^https:\/\/*.*\.midureader\.com\/fiction\/(recommend|reader) url reject-dict
+
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 URL-REGEX,^https:\/\/apiwz\.midureader\.com\/advert\/,REJECT
