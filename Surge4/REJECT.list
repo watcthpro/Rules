@@ -1,10 +1,5 @@
 # 广告屏蔽
 DOMAIN,open.e.kuaishou.com
-DOMAIN,api-access.pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,utoken.umeng.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN,unidesk.alicdn.com
-DOMAIN,ugd.gtimg.com
 DOMAIN-SUFFIX,jsebmcv.cn
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
