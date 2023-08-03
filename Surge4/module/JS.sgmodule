@@ -2,19 +2,8 @@
 #!desc={自用脚本}
 
 [Script]
-警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.hzpolice\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
-浙里办ad1 = type=http-response,pattern=https:\/\/mapi\.zjzwfw\.gov\.cn\/app\/mgop\?data=%7B%7D,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
-浙里办AD = type=http-response,pattern=https:\/\/portal\.zjzwfw\.gov\.cn\/.*\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
 高德地图 = type=http-response,pattern=https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
 
-wps = type=http-response,pattern=https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-
-小小影视 = type=http-response,pattern=https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/xxys.js
-
-微信 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),requires-body=1,max-size=0,script-path=weixin_ad.js
-
+网心云开屏广告 = type=http-response,pattern=https:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf,requires-body=1,max-size=0,script-path=obj.data.js
 [MITM]
-hostname = %APPEND% m5.amap.com,account.wps.cn,api.mvmtv.com,.*apps*.com,newdrugs.dxy.cn,*.midukanshu.com,api.hongyibo.com.cn,ss.lcjlnjyy.com,*.xxjjappss.com,*.hnhx360.com,*.5iqzj.com,*.judeleshiye.com
+hostname = %APPEND% m5.amap.com,device-box.onethingpcs.com
