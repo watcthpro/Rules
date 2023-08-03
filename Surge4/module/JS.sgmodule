@@ -2,7 +2,10 @@
 #!desc={自用脚本}
 
 [Script]
+12306 = type=http-response,pattern=https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js
+警察叔叔 = type=http-response,pattern=https:\/\/portal-jcss\.police\.hangzhou\.gov\.cn\/app_api\/appHome\/(selectPopupPic|selectStartPic),requires-body=1,max-size=0,script-path=obj.data.js
+浙里办 = type=http-response,pattern=https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,requires-body=1,max-size=0,script-path=obj.data.js
 网心云开屏广告 = type=http-response,pattern=https:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf,requires-body=1,max-size=0,script-path=obj.data.js
 酷我音乐 = type=http-response,pattern=https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=kw.js
 [MITM]
-hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me
+hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me,portal.zjzwfw.gov.cn,portal-jcss.police.hangzhou.gov.cn,account.wps.cn,ad.12306.cn
