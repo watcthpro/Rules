@@ -3,24 +3,29 @@
 
 
 [URL Rewrite]
-https:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend - reject
-
+# 搜索框
+^https:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend - reject
+# 路线规划下方广告
+^https:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? - reject
+# Tip请求
+^https:\/\/.*\.amap\.com\/ws\/boss\/order_web\/\w{8}_information - reject
+# 通用广告请求
+^https:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
+# 首页左上角gif
+^https:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif - reject
+# 左下天气
+^https:\/\/.*\.amap\.com\/ws\/valueadded\/weather - reject
 
 [Script]
-底部tab栏角标 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/message\/notice\/list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-搜索框热词 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/search\/new_hotword,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-首页右中广告 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-附近页面 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-打车页面处理 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/promotion-web\/resource,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-首页底部处理 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-开屏广告 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/valueadded\/alimama\/splash_screen,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-首页顶部推广 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/msgbox\/pull,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-我的页面 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaas,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js
-
-
-
-
-
+底部tab栏角标 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/message\/notice\/list,requires-body=1,max-size=0,script-path=amap.js
+搜索框热词 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/search\/new_hotword,requires-body=1,max-size=0,script-path=amap.js
+首页右中广告 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable,requires-body=1,max-size=0,script-path=amap.js
+附近页面 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart,requires-body=1,max-size=0,script-path=amap.js
+打车页面处理 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/promotion-web\/resource,requires-body=1,max-size=0,script-path=amap.js
+首页底部处理 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page,requires-body=1,max-size=0,script-path=amap.js
+开屏广告 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/valueadded\/alimama\/splash_screen,requires-body=1,max-size=0,script-path=amap.js
+首页顶部推广 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/msgbox\/pull,requires-body=1,max-size=0,script-path=amap.js
+我的页面 = type=http-response,pattern=https:\/\/.*\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaas,requires-body=1,max-size=0,script-path=amap.js
 
 [MITM]
 hostname = %APPEND% *.amap.com
