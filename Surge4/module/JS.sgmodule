@@ -7,6 +7,9 @@ https:\/\/reyee\.ruijie\.com\.cn\/admin\/resources\/skin\/default\/images\/weixi
 # 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas\-mgateway\-static\/images\/advertType\/.* - reject
 [Script]
+
+# 小小影视 = type=http-response,pattern=https:\/\/.*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData),requires-body=1,max-size=0,script-path=xxys.js
+大师兄影视 = type=http-response,pattern=https:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v3\/(top_notice|notice),requires-body=1,max-size=0,script-path=obj.data.js
 易网络 = type=http-response,pattern=https:\/\/reyee\.ruijie\.com\.cn\/service\/api\/enetapp\/app2\/appHomeInfo,requires-body=1,max-size=0,script-path=ruijie.js
 网易大神广告 = type=http-response,pattern=https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/serving\/,requires-body=1,max-size=0,script-path=obj.result.js
 WPS 解锁超级会员1.0 Pro = type=http-response,pattern=https:\/\/(account|drive|vas|userinfo.docer)\.wps\.cn\/(.*api\/(v3\/(mine\/vips|spaces)|users\/\d+\/overview|v1\/list_purchase_info)|user\/v1\/vip_dl_times),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js
@@ -17,4 +20,4 @@ WPS 解锁超级会员1.1 Pro = type=http-response,pattern=https:\/\/(mobile|cli
 网心云开屏广告 = type=http-response,pattern=https:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf,requires-body=1,max-size=0,script-path=obj.data.js
 酷我音乐 = type=http-response,pattern=https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=kw.js
 [MITM]
-hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me,portal.zjzwfw.gov.cn,portal-jcss.police.hangzhou.gov.cn,*.wps.cn,ad.12306.cn,reyee.ruijie.com.cn,mbs.boc.cn,god.gameyw.netease.com
+hostname = %APPEND% device-box.onethingpcs.com,*.kuwo.cn, *.lrts.me,portal.zjzwfw.gov.cn,portal-jcss.police.hangzhou.gov.cn,*.wps.cn,ad.12306.cn,reyee.ruijie.com.cn,mbs.boc.cn,god.gameyw.netease.com,sdk.alibaba.com.ailbaba.me,*.gzkaxing.com,*.daqindou.com,*.hzsmhw.com,*.syzcny.com,*.sdjhfengji.com,*.bdyuteng.com,*.5iqzj.com,*.gqbyh.com,*.judeleshiye.com,*.hnhx360.com,*.myxxdq.com
