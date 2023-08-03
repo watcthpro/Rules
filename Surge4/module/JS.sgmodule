@@ -2,8 +2,7 @@
 #!desc={自用脚本}
 
 [Script]
-高德地图 = type=http-response,pattern=https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/watcthpro/Rules/master/File/obj.data.js
-
+高德地图 = type=http-response,pattern=https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/\?,requires-body=1,max-size=0,script-path=obj.data.js
 网心云开屏广告 = type=http-response,pattern=https:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf,requires-body=1,max-size=0,script-path=obj.data.js
 [MITM]
 hostname = %APPEND% m5.amap.com,device-box.onethingpcs.com
