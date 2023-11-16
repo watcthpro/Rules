@@ -9,6 +9,7 @@ hostname = %APPEND% *.midureader.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 
 [Script]
+为你推荐 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/fiction\/recommend\/speedEndV2,requires-body=1,max-size=0,script-path=obj.data.js
 CenterMenus = type=http-response,pattern=^https:\/\/api\.midureader\.com\/wz\/user\/userCenterMenus,requires-body=1,max-size=0,script-path=userCenterMenus.js
 equityInfo = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=VIP.js
 getConfig = type=http-response,pattern=^https:\/\/api\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
