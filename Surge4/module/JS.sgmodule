@@ -1,6 +1,10 @@
 #!name=JS脚本
 #!desc={自用脚本}
 
+[Rule]
+DOMAIN,ad.cyapi.cn,REJECT,extended-matching
+URL-REGEX,^https:\/\/taichu\.96225\.com\/showcase\/findPage,REJECT
+
 [URL Rewrite]
 #彩云天气
 ^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get - reject
