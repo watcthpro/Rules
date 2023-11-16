@@ -6,23 +6,18 @@
 hostname = %APPEND% *.midureader.com
 
 [URL Rewrite]
-https:\/\/.*\.midureader\.com\/advert\/ - reject
-https:\/\/.*\.midureader\.com\/config\/getAds - reject
-https:\/\/.*\.midureader\.com\/user\/comment\/ - reject
-https:\/\/.*\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData - reject
-https:\/\/.*\.midureader\.com\/fiction\/speed\/getReadsLimit - reject
-https:\/\/.*\.midureader\.com\/fiction\/scene\/getLike - reject
-https:\/\/.*\.midureader\.com\/fiction\/(recommend|reader) - reject
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 
 [Script]
-
-getConfig = type=http-response,pattern=https:\/\/.*\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
-米读会员 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=VIP.js
-删除广告1 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/config\/getAppConfigs$,requires-body=1,max-size=0,script-path=obj.data.js
-经典好书 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/fiction\/scene\/getLike$,requires-body=1,max-size=0,script-path=obj.data.js
-删除广告2 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/config\/getAds$,requires-body=1,max-size=0,script-path=obj.data.js
-删除广告3 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/wz\/user\/readConfig$,requires-body=1,max-size=0,script-path=obj.data.js
-删除广告4 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/fiction\/recommend\/chapterEndV2$,requires-body=1,max-size=0,script-path=obj.data.js
-删除广告5 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/wz\/user\/read$,requires-body=1,max-size=0,script-path=obj.data.js
-删除最近阅读 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/fiction\/speed\/getReadsLimit$,requires-body=1,max-size=0,script-path=obj.data.js
-修改主页分类 = type=http-response,pattern=^https:\/\/.*\.midureader\.com\/fiction\/scene\/getHome,requires-body=1,max-size=0,script-path=getHome.js
+CenterMenus = type=http-response,pattern=^https:\/\/api\.midureader\.com\/wz\/user\/userCenterMenus,requires-body=1,max-size=0,script-path=userCenterMenus.js
+equityInfo = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/relation\/equityInfo,requires-body=1,max-size=0,script-path=VIP.js
+getConfig = type=http-response,pattern=^https:\/\/api\.midureader\.com\/config\/getConfig,requires-body=1,max-size=0,script-path=getConfig.js
+删除图片 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/baseconfig\/banner\/getFixPositionConfigData,requires-body=1,max-size=0,script-path=obj.data.js
+去除结尾热评1 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/fiction\/recommend\/chapterEndV2,requires-body=1,max-size=0,script-path=obj.data.js
+去除结尾热评2 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/comment\/chapter_biz,requires-body=1,max-size=0,script-path=obj.data.js
+去除结尾热评3 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/comment\/chapter_list,requires-body=1,max-size=0,script-path=obj.data.js
+去除结尾广告 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/config\/getAds,requires-body=1,max-size=0,script-path=obj.data.js
+显示热评 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/comment\/paragraph_countv2,requires-body=1,script-path=obj.data.js
+去除热评 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/user\/comment\/block_list,requires-body=1,script-path=obj.data.js
+去书架推荐 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/fiction\/like\/getLikes,requires-body=1,max-size=0,script-path=obj.data.js
+经典好书 = type=http-response,pattern=^https:\/\/api\.midureader\.com\/fiction\/scene\/getLike,requires-body=1,max-size=0,script-path=obj.data.js
